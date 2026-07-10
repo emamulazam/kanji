@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kanji Browser</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>漢 Kanji Browser</h1>
+
+</header>
+
+
+
+<main>
+
+
+<section class="search-box">
+
+
+<input 
+id="numberSearch"
+placeholder="Enter Kanji Number">
+
+
+<button onclick="searchNumber()">
+Go
+</button>
+
+
+</section>
+
+
+
+
+<section class="search-box">
+
+
+<input 
+id="kanjiSearch"
+placeholder="Enter Kanji">
+
+
+<button onclick="searchKanji()">
+Go
+</button>
+
+
+</section>
+
+
+
+
+<h2>Kanji List</h2>
+
+
+<div id="kanjiGrid"></div>
+
+
+
+</main>
+
+
+
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
