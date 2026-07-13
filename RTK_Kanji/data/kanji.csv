@@ -73,7 +73,7 @@
 直,straightaway    সরাসরি,,8,73
 具,tool    সরঞ্জাম,,8,74
 真,true    সত্য,,10,75
-工,craft    craft,,3,76
+工,craft    তৈরি করা,,3,76
 左,left    বাম,,5,77
 右,right    ডান,,5,78
 有,possess    অধিকার করা,,6,79
@@ -898,106 +898,106 @@
 移,shift    পরিবর্তন,,11,898
 秒,second    দ্বিতীয়,,9,899
 秋,autumn    শরৎকাল,,9,900
-愁,distress,,13,901
-私,private,,7,902
-秩,regularity,,10,903
-秘,secret,,10,904
-称,appellation,,10,905
-利,profit,,7,906
-梨,pear tree,,11,907
-穫,harvest,,18,908
-穂,ear of a plant,,15,909
-稲,rice plant,,14,910
-香,incense,,9,911
-季,seasons,,8,912
-委,committee,,8,913
-秀,excel,,7,914
-透,transparent,,10,915
-誘,entice,,14,916
-穀,cereals,,14,917
-菌,germ,,11,918
-米,rice,,6,919
-粉,flour,,10,920
-粘,sticky,,11,921
-粒,grains,,11,922
-粧,cosmetics,,12,923
-迷,astray,,9,924
-粋,chic,,10,925
-糧,provisions,,18,926
-菊,chrysanthemum,,11,927
-奥,core,,12,928
-数,number,,13,929
-楼,watchtower,,13,930
-類,sort,,18,931
+愁,distress    দুর্দশা,,13,901
+私,private    ব্যক্তিগত,,7,902
+秩,regularity    নিয়মিততা,,10,903
+秘,secret    গোপন,,10,904
+称,appellation    উপাধি,,10,905
+利,profit    মুনাফা,,7,906
+梨,pear tree    নাশপাতি গাছ,,11,907
+穫,harvest    ফসল তোলা,,18,908
+穂,ear of a plant    উদ্ভিদের শিষ,,15,909
+稲,rice plant    ধানের গাছ,,14,910
+香,incense    ধূপ,,9,911
+季,seasons    ঋতুসমূহ,,8,912
+委,committee    কমিটি,,8,913
+秀,excel    এক্সেল,,7,914
+透,transparent    স্বচ্ছ,,10,915
+誘,entice    প্রলুব্ধ করা,,14,916
+穀,cereals    শস্যদানা,,14,917
+菌,germ    জীবাণু,,11,918
+米,rice    চাল,,6,919
+粉,flour    ময়দা,,10,920
+粘,sticky    আঠালো,,11,921
+粒,grains    শস্যদানা,,11,922
+粧,cosmetics    প্রসাধনী,,12,923
+迷,astray    পথভ্রষ্ট,,9,924
+粋,chic    চটকদার,,10,925
+糧,provisions    বিধান,,18,926
+菊,chrysanthemum    চন্দ্রমল্লিকা,,11,927
+奥,core    কেন্দ্র,,12,928
+数,number    সংখ্যা,,13,929
+楼,watchtower    পর্যবেক্ষণ মিনার,,13,930
+類,sort    শ্রেণীবদ্ধ করা,,18,931
 漆,lacquer,,14,932
-様,Esq.,,14,933
-求,request,,7,934
-球,ball,,11,935
-救,salvation,,11,936
-竹,bamboo,,6,937
-笑,laugh,,10,938
-笠,bamboo hat,,11,939
-笹,bamboo grass,,11,940
-筋,muscle,,12,941
-箱,box,,15,942
-筆,writing brush,,12,943
-筒,cylinder,,12,944
-等,etc.,,12,945
-算,calculate,,14,946
-答,solution,,12,947
-策,scheme,,12,948
-簿,register,,19,949
-築,fabricate,,16,950
-人,person,,2,951
-佐,assistant,,7,952
-但,however,,7,953
-住,dwell,,7,954
-位,rank,,7,955
-仲,go-between,,6,956
-体,body,,7,957
-悠,remote,,11,958
-件,affair,,6,959
-仕,attend,,5,960
-他,other,,5,961
-伏,prostrated,,6,962
-伝,transmit,,6,963
-仏,Buddha,,4,964
-休,rest,,6,965
-仮,provisional,,6,966
-伯,chief,,7,967
-俗,vulgar,,9,968
-信,faith,,9,969
-佳,excellent,,8,970
-依,reliant,,8,971
-例,example,,8,972
-個,individual,,10,973
-健,healthy,,11,974
-側,side,,11,975
-侍,waiter,,8,976
-停,halt,,11,977
-値,price,,10,978
-倣,emulate,,10,979
-倒,overthrow,,10,980
-偵,spy,,11,981
-僧,Buddhist priest,,13,982
-億,hundred million,,15,983
-儀,ceremony,,15,984
-償,reparation,,17,985
-仙,hermit,,5,986
-催,sponsor,,13,987
-仁,humanity,,4,988
-侮,scorn,,8,989
-使,use,,8,990
-便,convenience,,9,991
-倍,double,,10,992
-優,tenderness,,17,993
-伐,fell,,6,994
-宿,inn,,11,995
-傷,wound,,13,996
-保,protect,,9,997
-褒,praise,,15,998
-傑,greatness,,13,999
-付,adhere,,5,1000
+様,Esq.    মহোদয়,,14,933
+求,request    অনুরোধ,,7,934
+球,ball    বল,,11,935
+救,salvation     পরিত্রাণ,,11,936
+竹,bamboo    বাঁশ,,6,937
+笑,laugh    হাসি,,10,938
+笠,bamboo hat    বাঁশের টুপি,,11,939
+笹,bamboo grass    বাঁশঘাস,,11,940
+筋,muscle    পেশি,,12,941
+箱,box    বাক্স,,15,942
+筆,writing brush    লেখার তুলি,,12,943
+筒,cylinder    সিলিন্ডার,,12,944
+等,etc.    ইত্যাদি,,12,945
+算,calculate    গণনা করা,,14,946
+答,solution    সমাধান,,12,947
+策,scheme    পরিকল্পনা,,12,948
+簿,register    নিবন্ধন করুন,,19,949
+築,fabricate    নির্মাণ করা,,16,950
+人,person    ব্যক্তি,,2,951
+佐,assistant    সহকারী,,7,952
+但,however    যাইহোক,,7,953
+住,dwell    বাস করা,,7,954
+位,rank    পদমর্যাদা,,7,955
+仲,go-between    মধ্যস্থতাকারী,,6,956
+体,body    শরীর,,7,957
+悠,remote    দূরবর্তী,,11,958
+件,affair    ব্যাপার,,6,959
+仕,attend    অংশগ্রহণ করা,,5,960
+他,other    অন্যান্য,,5,961
+伏,prostrated    ভূপতিত হত্তয়া,,6,962
+伝,transmit    প্রেরণ করা,,6,963
+仏,Buddha    বুদ্ধ,,4,964
+休,rest    বিশ্রাম,,6,965
+仮,provisional    অস্থায়ী,,6,966
+伯,chief    প্রধান,,7,967
+俗,vulgar    অশ্লীল,,9,968
+信,faith    বিশ্বাস,,9,969
+佳,excellent    চমৎকার,,8,970
+依,reliant    নির্ভরশীল,,8,971
+例,example    উদাহরণ,,8,972
+個,individual    ব্যক্তি,,10,973
+健,healthy    স্বাস্থ্যকর,,11,974
+側,side    পাশ,,11,975
+侍,waiter    ওয়েটার,,8,976
+停,halt    থামা,,11,977
+値,price    দাম,,10,978
+倣,emulate    অনুকরণ করা,,10,979
+倒,overthrow    ক্ষমতাচ্যুত করা,,10,980
+偵,spy    গুপ্তচর,,11,981
+僧,Buddhist priest    বৌদ্ধ ভিক্ষু,,13,982
+億,hundred million    দশ কোটি,,15,983
+儀,ceremony    অনুষ্ঠান,,15,984
+償,reparation    ক্ষতিপূরণ,,17,985
+仙,hermit    নিভৃতচারী,,5,986
+催,sponsor    পৃষ্ঠপোষক,,13,987
+仁,humanity    মানবতা,,4,988
+侮,scorn    অবজ্ঞা,,8,989
+使,use    ব্যবহার,,8,990
+便,convenience    সুবিধা,,9,991
+倍,double    দ্বিগুণ,,10,992
+優,tenderness    কোমলতা,,17,993
+伐,fell    পড়ে গেল,,6,994
+宿,inn    সরাইখানা,,11,995
+傷,wound    ক্ষত,,13,996
+保,protect    সুরক্ষা দেওয়া,,9,997
+褒,praise    প্রশংসা,,15,998
+傑,greatness    মহত্ত্ব,,13,999
+付,adhere    লেগে থাকা,,5,1000
 符,token,,11,1001
 府,municipality,,8,1002
 任,responsibility,,6,1003
