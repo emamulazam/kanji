@@ -1,5 +1,33 @@
 let kanjiData = [];
 
+// Simple CSV line parser to handle quoted fields with commas
+function parseCSVLine(line){
+    const result = [];
+    let current = "";
+    let inQuotes = false;
+
+    for(let i = 0; i < line.length; i++){
+        const ch = line[i];
+        if(ch === '"'){
+            // Handle escaped quote ""
+            if(inQuotes && line[i+1] === '"'){
+                current += '"';
+                i++; // skip the escaped quote
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if(ch === ',' && !inQuotes){
+            result.push(current);
+            current = "";
+        } else {
+            current += ch;
+        }
+    }
+
+    result.push(current);
+    return result;
+}
+
 
 // Load CSV file
 
@@ -16,7 +44,7 @@ fetch("data/kanji.csv")
     rows.forEach(row => {
 
 
-        let col = row.split(",");
+        let col = parseCSVLine(row);
 
 
         if(col.length >= 5){
@@ -26,10 +54,11 @@ fetch("data/kanji.csv")
 
                 kanji: col[0],
                 meaning: col[1],
-                stroke: col[3],
-                number: Number(col[4])
+                            story: col[2],
+                            stroke: col[3],
+                            number: Number(col[4])
 
-            });
+                        });
 
 
         }

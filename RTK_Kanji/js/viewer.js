@@ -1,5 +1,32 @@
 let kanjiData=[];
 
+// Simple CSV line parser to handle quoted fields with commas
+function parseCSVLine(line){
+    const result = [];
+    let current = "";
+    let inQuotes = false;
+
+    for(let i = 0; i < line.length; i++){
+        const ch = line[i];
+        if(ch === '"'){
+            if(inQuotes && line[i+1] === '"'){
+                current += '"';
+                i++;
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if(ch === ',' && !inQuotes){
+            result.push(current);
+            current = "";
+        } else {
+            current += ch;
+        }
+    }
+
+    result.push(current);
+    return result;
+}
+
 
 
 let currentID=1;
@@ -22,7 +49,7 @@ fetch("data/kanji.csv")
     rows.forEach(row=>{
 
 
-        let col=row.split(",");
+        let col = parseCSVLine(row);
 
 
 
@@ -31,17 +58,18 @@ fetch("data/kanji.csv")
 
             kanjiData.push({
 
-
                 kanji:col[0],
 
                 meaning:col[1],
 
-                stroke:col[3],
+                            story: col[2],
 
-                number:Number(col[4])
+                            stroke:col[3],
+
+                            number:Number(col[4])
 
 
-            });
+                        });
 
 
         }
@@ -119,6 +147,11 @@ function showKanji(){
 
 
 
+    <!-- Story / mnemonic section placed under the kanji and above the number/stroke info -->
+    <div class="story">
+    ${k.story ? k.story : ""}
+    </div>
+
 
 
     <div class="info">
@@ -130,7 +163,6 @@ function showKanji(){
     Stroke Count : ${k.stroke}
 
     </div>
-
 
 
 
@@ -198,6 +230,7 @@ function showKanji(){
 
 
     </div>
+
 
 
 
