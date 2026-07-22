@@ -2,7 +2,6 @@ let kanjiData = [];
 let currentID = 1;
 let currentDataset = 'rtk';
 
-// Simple CSV line parser to handle quoted fields with commas
 function parseCSVLine(line) {
     const result = [];
     let current = "";
@@ -29,7 +28,6 @@ function parseCSVLine(line) {
     return result;
 }
 
-// Load CSV based on selected dataset
 function loadCSV() {
     currentDataset = sessionStorage.getItem('selectedDataset') || 'rtk';
     if (!currentDataset) {
@@ -174,7 +172,6 @@ function goHome() {
     window.location.href = 'index.html';
 }
 
-// Keyboard control
 document.addEventListener(
     "keydown",
     function (e) {
@@ -188,5 +185,4 @@ document.addEventListener(
     }
 );
 
-// Initialize when page loads
 loadCSV();
