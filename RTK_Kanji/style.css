@@ -2,7 +2,7 @@
 
 font-family:StrokeOrder;
 
-src:url("fonts/KanjiStrokeOrders_v4.005.ttf");
+src:url("../fonts/KanjiStrokeOrders_v4.005.ttf");
 
 }
 
@@ -11,7 +11,7 @@ src:url("fonts/KanjiStrokeOrders_v4.005.ttf");
 
 font-family:HGRKK;
 
-src:url("fonts/HGRKK.ttc");
+src:url("../fonts/HGRKK.ttc");
 
 }
 
