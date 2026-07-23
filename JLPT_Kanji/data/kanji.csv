@@ -1,0 +1,313 @@
+山,やま,mountain,3,1
+川,かわ,river,3,2
+田,た,rice field,5,3
+日,ひ,"sun, day",4,4
+月,つき,"moon, month",4,5
+火,ひ,fire,4,6
+水,みず,water,4,7
+木,き,tree,4,8
+金,きん、かね,"gold, money",8,9
+土,つち,soil,3,10
+一,いち,one,1,11
+二,に,two,2,12
+三,さん,three,3,13
+四,よん,four,5,14
+五,ご,five,4,15
+六,ろく,six,4,16
+七,なな,seven,2,17
+八,はち,eight,2,18
+九,きゅう,nine,2,19
+十,じゅう,ten,2,20
+百,ひゃく,hundred,6,21
+千,せん,thousand,3,22
+万,まん,ten thousand,3,23
+円,まる、えん,"circle, yen",4,24
+年,ねん、とし,"year, age",6,25
+上,うえ,"above, on",3,26
+下,した,under,3,27
+中,なか,middle,4,28
+半,はんぶん,half,5,29
+分,わける、わける、ふん,"divide, understand, minute",4,30
+人,ひと,person,2,31
+子,こども,child,3,32
+女,おんな,woman,3,33
+男,おとこ,man,7,34
+目,め,eye,5,35
+口,くち,mouth,3,36
+耳,みみ,ear,6,37
+手,て,hand,4,38
+足,あし,"leg, foot",7,39
+力,ちから,power,2,40
+父,ちち,father,4,41
+母,はは,mother,5,42
+先,さき、まえ,"foregoing, previous",6,43
+生,うまれる、いきる,"be born, live",5,44
+学,べんきょうする,study,8,45
+校,がっこう,school,10,46
+友,ともだち,friend,4,47
+本,ほん、もと,"book, root/origin",5,48
+毎,まい,every,6,49
+何,なに,what,7,50
+前,まえ,"front, before",9,51
+後,うしろ、あと,"back, after",9,52
+外,そと,outside,5,53
+左,ひだり,left,5,54
+右,みぎ,right,5,55
+東,ひがし,east,8,56
+西,にし,west,6,57
+南,みなみ,south,9,58
+北,きた,north,5,59
+名,なまえ,name,6,60
+牛,うし,cow,4,61
+馬,うま,horse,10,62
+魚,さかな,fish,11,63
+貝,かい,shellfish,7,64
+雨,あめ,rain,8,65
+天,てん,haven,4,66
+気,き,spirit,6,67
+車,くるま,car,7,68
+門,もん,gate,8,69
+午,ひる,noon,4,70
+大,おおきい,big,3,71
+小,ちいさい,small,3,72
+高,たかい,"high, expensive",10,73
+安,やすい、あんぜん,"cheap, safe",5,74
+新,あたらしい,new,13,75
+古,ふるい,old,5,76
+長,ながい、いちばんうえのひと,"long, chief",8,77
+多,おおい,"many, much",6,78
+少,すくない,"few, little",4,79
+早,はやい,early,6,80
+行,いく,go,6,81
+来,くる,came,7,82
+食,たべる,eat,9,83
+見,みる,see,7,84
+入,はいる、いれる,"enter, put in",2,85
+出,でる、だす,"go out, take out",5,86
+立,たつ,stand,5,87
+書,だく、ほん,"write, book",10,88
+言,いう,say,7,89
+飲,のむ,drink,12,90
+話,はなす,speak,13,91
+読,よむ,read,14,92
+語,ことば,word,14,93
+間,あいだ,between,12,94
+聞,きく,listen,14,95
+買,かう,buy,12,96
+休,やすむ,rest,6,97
+時,じかん,time,10,98
+週,しゅう,week,11,99
+道,みち,"street, road",12,100
+今,いま,now,4,101
+会,あう,meet,6,102
+社,かいしゃ、やしろ,"company, shrine",7,103
+店,みせ,shop,8,104
+駅,えき,station,14,105
+花,はな,flower,7,106
+国,くに,country,8,107
+白,しろ,white,5,108
+空,そら、くう,"sky, empty",8,109
+電,でんき,electricity,13,110
+住,すむ,live,7,111
+所,ばしょ,place,8,112
+京,みやこ,capital,8,113
+都,みやこ,metropolis,11,114
+府,ふ,administrative prefecture,8,115
+県,けん,prefecture,9,116
+市,し,"city, market",5,117
+区,く,ward,4,118
+町,まち,town,7,119
+村,むら,village,7,120
+明,あかるい、はっきり,"bright, clear",8,121
+暗,くらい,dark,13,122
+遠,とおい,far,13,123
+近,ちかい,near,7,124
+強,つよい,strong,11,125
+弱,よわい,weak,10,126
+重,おもい、だいじな,"heavy, important",9,127
+軽,かるい,light,12,128
+太,ふとい,fat,4,129
+細,ほそい、こまかい,"slender, fine",11,130
+特,とくべつな,special,10,131
+別,わかれる,separate,7,132
+有,ある,exist,6,133
+便,べんり、びん,"convenience, mail",9,134
+利,りえき,profit,7,135
+不,～ではない,not-,4,136
+切,きる,cut,4,137
+元,もと,origin,4,138
+好,すき,like,6,139
+急,いそぐ、きゅうに,"hurry, suddenly",9,140
+低,ひくい,low,7,141
+広,ひろい,spacious,5,142
+短,みじかい,short,12,143
+良,よい,good,7,144
+悪,わるい,bad,11,145
+正,ただしい,"correct, right",5,146
+変,かわる、べんな,"change, strange",9,147
+赤,あか,red,7,148
+青,あお,blue,8,149
+黒,くろ,black,11,150
+映,うつす,reflect,9,151
+画,え,picture,8,152
+音,おと,sound,9,153
+楽,たのしい、かんたん,"enjoyable, easy",13,154
+歌,うた,song,14,155
+移,うつす,copy,5,156
+真,ほんとう,truth,10,157
+旅,たび,trip,10,158
+世,せかい、せだい,"world, generation",5,159
+界,さかいめ,boundary,9,160
+仕,つかえる,serve,5,161
+事,こと,matter,8,162
+銀,ぎん,silver,14,163
+員,なかま,member,10,164
+医,いがく,medicine,7,165
+者,ひと,person,8,166
+働,はたらく,work,13,167
+屋,やね,roof,9,168
+産,つくる,produce,11,169
+業,わざ,deed,13,170
+林,はやし,wood,8,171
+森,もり,forest,12,172
+地,じめん,ground,6,173
+池,いけ,pond,6,174
+海,うみ,sea,9,175
+洋,おおきい　うみ,ocean,9,176
+雪,ゆき,snow,11,177
+光,ひかり,light,6,178
+台,だい,table,5,179
+風,かぜ、ふう,"wind, style",9,180
+季,きせつ,season,8,181
+節,くぎり,joint,13,182
+春,はる,spring,9,183
+夏,なつ,summer,10,184
+秋,あき,autumn,9,185
+冬,ふゆ,winter,5,186
+暑,あつい,hot,12,187
+寒,さむい,cold,12,188
+暖,あたたかい,warm,13,189
+涼,すずしい,cool,11,190
+体,からだ,body,7,191
+頭,あたま,head,16,192
+顔,かお,face,18,193
+首,くび,"neck, prime",9,194
+心,こころ、きもち,"heart, feelings",4,195
+声,こえ,voice,7,196
+病,びょうき,illness,10,197
+薬,くすり,medicine,16,198
+科,わけたもの,category,9,199
+内,うち,inside,4,200
+朝,あさ,morning,12,201
+昼,ひる,noon,9,202
+夜,よる,night,8,203
+夕,ゆうがた,evening,3,204
+方,ほうがく、ほうほう,"direction, way",4,205
+晩,よる,night,12,206
+計,はかる,measure,9,207
+曜,かがやく,shine,18,208
+以,～から,starting,5,209
+度,ど、ひんど,"degree, frequency",9,210
+止,とまる,stop,4,211
+歩,あるく,walk,8,212
+走,はしる,run,7,213
+起,おきる,get up,10,214
+持,もつ,have,9,215
+待,まつ,wait,9,216
+借,かりる,borrow,10,217
+貸,かす,lend,12,218
+始,はじまる,begin,8,219
+終,おわる,end,11,220
+家,いえ,house,10,221
+族,いちぞく,tribe,11,222
+私,わたし,I,7,223
+自,じぶん,oneself,6,224
+親,おや、したしい,parent,16,225
+両,りょうほう,both,6,226
+兄,あに,elder brother,5,227
+弟,おとうと,younger brother,7,228
+姉,あね,elder sister,8,229
+妹,いもうと,younger sister,8,230
+活,いきいき,vivid,9,231
+回,まわる,turn,6,232
+主,おもな、しゅじん,main,5,233
+色,いろ,color,6,234
+形,かたち,shape,7,235
+品,しな,goods,9,236
+民,ひとびと,people,5,237
+服,ふく、したがう,"clothes, obey",8,238
+犬,いぬ,dog,4,239
+同,おなじ,same,6,240
+米,いめ,rice,6,241
+料,はかる、ぎいりょう,"measure, materials",10,242
+理,りゆう,reason,11,243
+肉,にく,meat,6,244
+鳥,とり,bird,11,245
+野,のはら,field,11,246
+菜,やさい,vegetable,11,247
+茶,ちゃ,tea,9,248
+飯,ごはん,"cookedrice, meal",12,249
+味,あじ,taste,8,250
+代,かわる、だい,"replace, generation",5,251
+使,つかう,use,8,252
+作,つくる,make,7,253
+化,かわる,turn into,4,254
+信,しんじる,believe,9,255
+進,すすむ,advance,11,256
+送,おくる,send,9,257
+返,かえす,return,7,258
+洗,あらう,wash,9,259
+注,そそぐ,pour,8,260
+場,ばしょ,place,12,261
+建,たてる,build,9,262
+物,もの,thing,8,263
+院,かこいの　ある、たてもの,institution,10,264
+館,おおきい、たてもの,mansion,16,265
+堂,りっぱな、たてもの,hall,11,266
+室,へや,room,9,267
+工,ものを　つくる,craft,3,268
+図,ず,drawing,7,269
+号,ばんごう、どなる,"suffix for order, shout",5,270
+交,まじわる,cross,6,271
+通,とおる、かよう,"go through, commute",10,272
+動,うごく,move,11,273
+乗,のる,get on,9,274
+降,おりる、ふる,get off,10,275
+運,はこぶ、うん,transport,12,276
+転,いろがる,roll,11,277
+帰,かえる,return,10,278
+発,しゅっぱつする,leave,9,279
+着,きる,"wear, arrive",12,280
+漢,かん,HanChina,13,281
+字,じ,character,6,282
+文,ぶん,sentence,4,283
+教,おしえる,teach,11,284
+勉,がんばる,strive,10,285
+習,ならう,learn,11,286
+英,すぐれた,superior,8,287
+考,かんがえる,think,6,288
+研,みがく,polish,9,289
+究,ふかく　しらべる,investigate,7,290
+問,たずねる,ask,11,291
+題,だい,title,18,292
+試,ためす,try,13,293
+験,しらべる,examine,18,294
+質,しつ,quality,15,295
+合,あう,fit,6,296
+答,こたえる,answer,12,297
+用,つかう、よう,"use, errand",5,298
+紙,かみ,paper,10,299
+意,かんがえ,intention,13,300
+引,ひくい,pull,4,301
+開,あける,open,12,302
+閉,しめる,close,11,303
+去,さる,leave,5,304
+死,しぬ,die,6,305
+集,あつめる、あつまる,"collect, gather",12,306
+知,しっている,know,8,307
+売,うる,sell,7,308
+説,せつめいする,explain,14,309
+思,おもう,think,9,310
+駐,,,,
+無,,,,
+満,,,,
