@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kanji Vocabulary Viewer</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body data-page="home">
+
+<div class="container">
+
+<header>
+
+<h1 id="mainKanji" class="kanjiFont">関</h1>
+
+<div class="topButtons">
+
+<label>
+
+<input
+type="checkbox"
+id="alwaysShow">
+
+Always Show Answer
+
+</label>
+
+<button type="button" id="themeButton">
+
+🌙
+
+</button>
+
+</div>
+
+</header>
+
+<section class="searchArea">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search Kanji / Hiragana / Meaning">
+
+<button type="button" id="randomButton">
+
+🎲 Random
+
+</button>
+
+</section>
+
+<section class="resultInfo">
+
+<span id="resultCount">
+
+0 Results
+
+</span>
+
+</section>
+
+<section id="resultList">
+
+<!-- JavaScript -->
+
+</section>
+
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/csv.js"></script>
+<script src="js/search.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/home.js"></script>
+
+</body>
+
+</html>

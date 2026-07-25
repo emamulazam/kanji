@@ -1,0 +1,215 @@
+.headerRow{
+
+    display:flex;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:30px;
+
+}
+
+.mainKanjiSection{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:40px;
+
+}
+
+.mainKanjiSection h1{
+
+    font-size:130px;
+
+}
+
+.wordSection{
+
+    display:grid;
+
+    grid-template-columns:1fr 350px;
+
+    gap:40px;
+
+}
+
+.leftSide{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.rightSide{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+#answerArea{
+
+    width:100%;
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+#hiragana{
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+    color:#5ec8ff;
+
+}
+
+#meaning{
+
+    font-size:28px;
+
+    color:var(--sub);
+
+}
+
+.searchSection{
+
+    margin-bottom:20px;
+
+}
+
+#resultList{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.resultCard{
+
+    background:var(--card);
+
+    border-radius:12px;
+
+    padding:15px 20px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.resultCard:hover{
+
+    background:var(--cardHover);
+
+}
+
+.resultLeft{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.resultNumber{
+
+    width:45px;
+
+    color:var(--sub);
+
+}
+
+.resultWord{
+
+    font-family:HGR;
+
+    font-size:34px;
+
+}
+
+.resultRight{
+
+    color:var(--sub);
+
+}
+
+@media(max-width:900px){
+
+.wordSection{
+
+    grid-template-columns:1fr;
+
+}
+
+.mainKanjiSection{
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.mainKanjiSection h1{
+
+    font-size:90px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.headerRow{
+
+    flex-direction:column;
+
+}
+
+#hiragana{
+
+    font-size:30px;
+
+}
+
+#meaning{
+
+    font-size:22px;
+
+}
+
+.resultWord{
+
+    font-size:28px;
+
+}
+
+}
