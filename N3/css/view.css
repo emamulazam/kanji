@@ -28,6 +28,24 @@
 
 }
 
+.kanjiHeading{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+}
+
+.kanjiNumber{
+
+    font-size:24px;
+
+    color:var(--sub);
+
+}
+
 .wordSection{
 
     display:grid;

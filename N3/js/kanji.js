@@ -86,6 +86,8 @@ function showKanji(){
 
     const mainElement =
     document.getElementById("mainKanji");
+    const kanjiNumberElement =
+    document.getElementById("kanjiNumber");
     const wordHGRElement =
     document.getElementById("wordHGR");
     const wordStrokeElement =
@@ -98,6 +100,11 @@ function showKanji(){
     if(mainElement){
         mainElement.textContent =
         currentEntry.main;
+    }
+
+    if(kanjiNumberElement){
+        kanjiNumberElement.textContent =
+        `#${currentEntry.no}`;
     }
 
     if(wordHGRElement){

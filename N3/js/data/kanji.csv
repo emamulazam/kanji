@@ -19,3 +19,108 @@
 19,断,無断,むだん,without permission
 20,断,断水,だんすい,suspension of water supply
 21,断,断る,ことわる,refuse
+22,横,横断,おうだん,a crossing
+23,横,横断歩道,おうだんほどう,a pedestrian crossing 
+24,横,横,よこ,side
+25,押,押す,おす,push
+26,押,押さえる,おさえん,hold down
+27,押,押し入れ,おしいれ,a sliding-door closet 
+28,押,押しボタン式,おしボタンしき,a push-button ...
+29,式,入学式,にゅうがくしき,an entrance ceremony 
+30,式,数式,すうしき,a numerical formula 
+31,信,送信,そうしん,transmission 
+32,信,信じる,しんじる,believe 
+33,信,自信,じしん,confidence 
+34,信,信用,しんよう,trust 
+35,号,信号,しんごう,"a singnal, a traffic light"
+36,号,～号車,～ごうしゃ,carriage number ...
+37,確,正確な,せいかくな,"correct, accurate"
+38,確,確かな,たしかな,certain
+39,確,確かめる,たしかめる,"confirm, verify"
+40,認,確認,かくにん,confirmation
+41,認,認める,みとめる,"admit, approve"
+42,飛,飛行場,ひこうじょう,an airport
+43,飛,飛ぶ,とぶ,fly
+44,非,非常の,ひじょうの,emergency
+45,非,非常に,ひじょうに,extremely
+46,非,非常口,ひじょぐち,an emergency exit
+47,常,日常の,にちじょうの,"usual, everyday"
+48,常,正常な,せいじょうな,normal
+49,階,～階,～かい,floor
+50,段,階段,かいだん,stairs
+51,箱,箱,はこ,a box
+52,箱,ごみ箱,ごみばこ,a trash box
+53,危,危険な,きけんな,danger
+54,危,危ない,あぶない,dangerous
+55,険,危険な,きけんな,danger
+56,捨,捨てる,すてる,throw away
+57,線,線,せん,a line
+58,線,～番線,～ばんせん,line (platform) number ...
+59,面,全面,ぜんめん,whole
+60,面,画面,がめん,a  screen
+61,面,0０方面,00ほうめん,... area
+62,普,普通の,ふつうの,ordinary
+63,各,各駅,かくえき,every station
+64,各,各国,かっこく,each country
+65,各,各自,かくじ,"respctive, each person"
+66,次,目次,もくじ,contents
+67,次,次回,じかい,the next time
+68,次,次,つぎ,the next
+69,快,快速,かいそく,a high speed
+70,速,高速道路,こうそくどうろ,a superhighway
+71,速,速度,そくど,speed
+72,速,速い,はやい,fast
+73,過,通過,つうか,"passage, transit"
+74,過,過去,かこ,past
+75,過,過ぎる,すぎる,pass
+76,鉄,地下鉄,ちかてつ,a subway
+77,鉄,鉄道,てつどう,a railway
+78,鉄,鉄,てつ,steel
+79,指,指定,してい,"specification, designation"
+80,指,指定席,していせき,a reserved seat
+81,指,指,ゆび,a finger
+82,指,指輪,ゆびわ,a (finger) ring
+83,定,定休日,ていきゅうび,a set/regular holiday
+84,定,安定,あんてい,stability
+85,席,席,せき,a seat
+86,席,出席,しゅっせき,attendance
+87,席,欠席,けっせき,absence
+88,由,自由な,じゆうな,free
+89,由,自由席,ひゆうせき,a non-reserved seat
+90,由,理由,りゆう,a reason
+91,番,番号,ばんごう,a number
+92,番,～番,～ばん,number ...
+93,番,～番線,～ばんせん,line (platform) number ...
+94,窓,窓,まど,a window
+95,窓,窓口,まどぐち,a (teller's) window
+96,側,両側,りょうがわ,both sides
+97,側,窓側,まどがわ,the window side
+98,側,右側,みぎがわ,the right side
+99,路,通路,つうろ,an aisle
+100,路,道路,どうろ,a road
+101,路,線路,せんろ,a railway track
+102,亭,停車,ていしゃ,stopping of a vehicel
+103,亭,バス亭,バスてい,a bus stop
+104,整,整理,せいり,arrangement
+105,整,整理券,せいりけん,"numbered ticket (issued at cinemas, etc. to indicate the order in which people may enter)"
+106,券,駐車券,ちゅしゃけん,a parking ticket
+107,券,乗車券,じゅしゃけん,a (boarding) ticket
+108,券,回数券,かいすうけん,(book of) commuter ticket(s)
+109,現,現金,げんきん,cash
+110,現,表現,ひょうげん,expression
+111,現,現れる,あらわれる,appear
+112,両,両親,りょうしん,parents
+113,両,～両,～りょう,... carson a train
+114,替,取り替える,とりかえる,exchange (one thing for another)
+115,替,両替,りょうがえ,"money changing, exchange"
+116,替,着替える,きがえる,change your clothes
+117,優,優先席,ゆうせんせき,a priority seat
+118,優,俳優,はいゆう,an actor
+119,優,優しい,やさしい,kind
+120,座,座席,ざせき,a seat
+121,座,正座,せいざ,sitting on the floor Japanese
+122,座,座る,すわる,sit
+123,降,降車口,こうしゃぐち,exit (for getting off)
+124,降,以降,いこう,on and after ...
+125,降,降りる,おりる,get off
+126,降,降る,ふる,fall
