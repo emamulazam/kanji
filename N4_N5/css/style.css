@@ -1,0 +1,311 @@
+/* ===========================
+   FONT
+=========================== */
+
+@font-face{
+    font-family:"HGR";
+    src:url("../../font/HGRKK.ttc");
+}
+
+@font-face{
+    font-family:"Stroke";
+    src:url("../../font/KanjiStrokeOrders_v4.005.ttf");
+}
+
+/* ===========================
+   COLOR
+=========================== */
+
+:root{
+
+    --bg:#1d1f23;
+    --card:#2b2f36;
+    --cardHover:#383d46;
+
+    --text:#ffffff;
+    --sub:#bbbbbb;
+
+    --accent:#4cafef;
+
+    --border:#444;
+
+    --button:#4cafef;
+    --buttonHover:#2d8ddd;
+
+    --shadow:0 10px 25px rgba(0,0,0,.35);
+
+}
+
+body.light{
+
+    --bg:#f2f2f2;
+    --card:#ffffff;
+    --cardHover:#ececec;
+
+    --text:#111;
+    --sub:#555;
+
+    --border:#ddd;
+
+}
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+
+    margin:0;
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    transition:.25s;
+
+}
+
+/* ===========================
+   COMMON
+=========================== */
+
+.container{
+
+    width:min(1200px,95%);
+
+    margin:auto;
+
+    padding:25px;
+
+}
+
+hr{
+
+    margin:30px 0;
+
+    border:none;
+
+    border-top:1px solid var(--border);
+
+}
+
+.kanjiFont{
+
+    font-family:"HGR";
+
+}
+
+.strokeFont{
+
+    font-family:"Stroke";
+
+}
+
+.bigWord{
+
+    font-size:70px;
+
+    line-height:1.3;
+
+}
+
+button{
+
+    cursor:pointer;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:10px;
+
+    padding:12px 20px;
+
+    background:var(--button);
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    background:var(--buttonHover);
+
+    transform:translateY(-2px);
+
+}
+
+button:active{
+
+    transform:scale(.97);
+
+}
+
+input[type=text]{
+
+    width:100%;
+
+    padding:14px 18px;
+
+    font-size:18px;
+
+    border-radius:12px;
+
+    border:2px solid var(--border);
+
+    background:var(--card);
+
+    color:var(--text);
+
+    transition:.25s;
+
+}
+
+input[type=text]:focus{
+
+    border-color:var(--accent);
+
+    outline:none;
+
+}
+
+label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-size:18px;
+
+}
+
+input[type=checkbox]{
+
+    width:22px;
+    height:22px;
+
+}
+
+.card{
+
+    background:var(--card);
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    transition:.2s;
+
+}
+
+.card:hover{
+
+    background:var(--cardHover);
+
+}
+
+.hidden{
+
+    display:none;
+
+}
+
+.center{
+
+    text-align:center;
+
+}
+
+.right{
+
+    text-align:right;
+
+}
+
+.left{
+
+    text-align:left;
+
+}
+
+/* ===========================
+   SCROLL BAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#666;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:transparent;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+.bigWord{
+
+    font-size:50px;
+
+}
+
+button{
+
+    width:100%;
+
+}
+
+.container{
+
+    padding:15px;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.bigWord{
+
+    font-size:40px;
+
+}
+
+}
+

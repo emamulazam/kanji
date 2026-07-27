@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Vocabulary Viewer</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/view.css">
+
+</head>
+
+<body data-page="detail">
+
+<div class="container">
+
+<header>
+
+<div class="headerRow">
+
+<button type="button" id="homeButton">
+
+🏠 Home
+
+</button>
+
+<button type="button" id="previousButton">
+
+⬅ Previous
+
+</button>
+
+<button type="button" id="nextButton">
+
+Next ➡
+
+</button>
+
+<button type="button" id="randomButton">
+ 
+🎲 Random
+ 
+</button>
+ 
+<button type="button" id="indexButton">
+ 
+Index
+ 
+</button>
+ 
+</div>
+
+</header>
+
+<section class="mainKanjiSection">
+
+<div class="kanjiHeading">
+
+<h1
+id="mainKanji"
+class="kanjiFont">
+
+関
+
+</h1>
+
+<span id="kanjiNumber" class="kanjiNumber">#1</span>
+
+</div>
+
+<label>
+
+<input
+type="checkbox"
+id="alwaysShow">
+
+Always Show Answer
+
+</label>
+
+</section>
+
+<section class="wordSection">
+
+<div class="leftSide">
+
+<div
+id="wordHGR"
+class="kanjiFont bigWord">
+
+関心
+
+</div>
+
+<div
+id="wordStroke"
+class="strokeFont bigWord">
+
+関心
+
+</div>
+
+</div>
+
+<div class="rightSide">
+
+<div id="answerArea">
+
+<div id="hiragana">
+
+かんしん
+
+</div>
+
+<div id="meaning">
+
+Interest
+
+</div>
+
+</div>
+
+<button type="button" id="showAnswer">
+
+Show Answer
+
+</button>
+
+</div>
+
+</section>
+
+<hr>
+
+<section class="searchSection">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search">
+
+</section>
+
+<section id="resultList">
+
+<!-- JavaScript -->
+
+</section>
+
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/csv.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/search.js"></script>
+<script src="js/home.js"></script>
+<script src="js/keyboard.js"></script>
+<script src="js/kanji.js"></script>
+
+</body>
+
+</html>
