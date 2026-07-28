@@ -1,74 +1,1046 @@
-1,山,山,やま,mountain
-2,山,ふじ山,ふじさん,Mt. Fuji 
-3,山,登山,とざん,climbing 
-4,川,川,かわ,river 
-5,川,山川さん,やまかわさん,Mr. Yamada
-6,川,インダス川,インダスがわ,the Indus river 
-7,田,田んぼ,たんぼ,rice field 
-8,田,山田さん,やまださん,Mr. Yamada
-9,田,水田,すいでん,rice field 
-10,田,油田,ゆでん,oil field 
-11,日,日,ひ,the sun
-12,日,日曜日,にちようび,Sunday 
-13,日,日本,にほん,Japan 
-14,日,休日,きゅうじつ,holiday 
-15,月,月,つき,the moon
-16,月,月曜日,げつようび,Monday
-17,月,１月,いちがつ,January
-18,月,今月,こんげつ,this month
-19,火,火,ひ,fire 
-20,火,火曜日,かようび,Tuesday 
-21,火,火山,かざん,volcano 
-22,火,火事,かじ,fire 
-23,水,水,みず,water
-24,水,水曜日,すいようび,Wednesday
-25,水,水田,すいでん,rice field 
-26,水,水道,すいどう,waterworks
-27,木,木,き,tree
-28,木,木曜日,もくようび,Thursday
-29,金,お金,おかね,money
-30,金,金,きん,gold
-31,金,金曜日,きんようび,Friday
-32,土,土,つち,"soil, earth"
-33,土,土曜日,どようび,Saturday
-34,土,土地,とち,land
-35,一,一つ,ひとつ,one (thing)
-36,一,一月,いちがつ,January
-37,一,一日,ついたち,the 1st day of a month
-38,一,一日,いちにち,one day
-39,二,二つ,ふたつ,two (things)
-40,二,二月,にがつ,February
-41,二,二日,ふつか,the 2nd day of a month
-42,二,二人,つたり,two people
-43,三,三つ,みっつ,three (things)
-44,三,三月,さんがつ,March
-45,三,三日,みっか,the 3rd day of a month
-46,三,三角,さんかく,triangle
-47,四,四,よん,four
-48,四,四つ,よっつ,four (things)
-49,四,四月,しがつ,April
-50,四,四日,よっか,the 4th day of a month
-51,五,五つ,いつつ,five (things)
-52,五,五月,ごがつ,May
-53,五,五日,いつか,the 5th day of a month
-54,五,五円,ごえん,five yen
-55,六,六つ,むっつ,six (things)
-56,六,六月,ろくがつ,June
-57,六,六日,むいか,the 6th day of a month
-58,六,六本木,ろっぽんぎ,(place name)
-59,七,七,なな,seven
-60,七,七つ,ななつ,seven (things)
-61,七,七月,しちがつ,July
-62,七,七日,なのか,the 7th day of a month
-63,八,八つ,やっつ,eight (things)
-64,八,八月,はちがつ,August
-65,八,八日,ようか,the 8th day of a month
-66,八,八百屋,やおや,vegetable shop
-67,九,九つ,ここのつ,nine (things)
-68,九,九月,くがつ,September
-69,九,九日,ここのか,the 9th day of a month
-70,九,九州,きゅうしゅう,(place name)
-71,十,十,とお/じゅう,ten
-72,十,十月,じゅうがつ,October
-73,十,十日,とおか,the 10th day of a month
-74,十,十分な,じゅうぶんな,enough
+1,山,山,やま,mountain,1
+2,山,ふじ山,ふじさん,Mt. Fuji,1
+3,山,登山,とざん,climbing,1
+4,川,川,かわ,river,2
+5,川,山川さん,やまかわさん,Mr. Yamada,2
+6,川,インダス川,インダスがわ,the Indus river,2
+7,田,田んぼ,たんぼ,rice field,3
+8,田,山田さん,やまださん,Mr. Yamada,3
+9,田,水田,すいでん,rice field,3
+10,田,油田,ゆでん,oil field,3
+11,日,日,ひ,the sun,4
+12,日,日曜日,にちようび,Sunday,4
+13,日,日本,にほん,Japan,4
+14,日,休日,きゅうじつ,holiday,4
+15,月,月,つき,the moon,5
+16,月,月曜日,げつようび,Monday,5
+17,月,１月,いちがつ,January,5
+18,月,今月,こんげつ,this month,5
+19,火,火,ひ,fire,6
+20,火,火曜日,かようび,Tuesday,6
+21,火,火山,かざん,volcano,6
+22,火,火事,かじ,fire,6
+23,水,水,みず,water,7
+24,水,水曜日,すいようび,Wednesday,7
+25,水,水田,すいでん,rice field,7
+26,水,水道,すいどう,waterworks,7
+27,木,木,き,tree,8
+28,木,木曜日,もくようび,Thursday,8
+29,金,お金,おかね,money,9
+30,金,金,きん,gold,9
+31,金,金曜日,きんようび,Friday,9
+32,土,土,つち,"soil, earth",10
+33,土,土曜日,どようび,Saturday,10
+34,土,土地,とち,land,10
+35,一,一つ,ひとつ,one (thing),11
+36,一,一月,いちがつ,January,11
+37,一,一日,ついたち,the 1st day of a month,11
+38,一,一日,いちにち,one day,11
+39,二,二つ,ふたつ,two (things),12
+40,二,二月,にがつ,February,12
+41,二,二日,ふつか,the 2nd day of a month,12
+42,二,二人,つたり,two people,12
+43,三,三つ,みっつ,three (things),13
+44,三,三月,さんがつ,March,13
+45,三,三日,みっか,the 3rd day of a month,13
+46,三,三角,さんかく,triangle,13
+47,四,四,よん,four,14
+48,四,四つ,よっつ,four (things),14
+49,四,四月,しがつ,April,14
+50,四,四日,よっか,the 4th day of a month,14
+51,五,五つ,いつつ,five (things),15
+52,五,五月,ごがつ,May,15
+53,五,五日,いつか,the 5th day of a month,15
+54,五,五円,ごえん,five yen,15
+55,六,六つ,むっつ,six (things),16
+56,六,六月,ろくがつ,June,16
+57,六,六日,むいか,the 6th day of a month,16
+58,六,六本木,ろっぽんぎ,(place name),16
+59,七,七,なな,seven,17
+60,七,七つ,ななつ,seven (things),17
+61,七,七月,しちがつ,July,17
+62,七,七日,なのか,the 7th day of a month,17
+63,八,八つ,やっつ,eight (things),18
+64,八,八月,はちがつ,August,18
+65,八,八日,ようか,the 8th day of a month,18
+66,八,八百屋,やおや,vegetable shop,18
+67,九,九つ,ここのつ,nine (things),19
+68,九,九月,くがつ,September,19
+69,九,九日,ここのか,the 9th day of a month,19
+70,九,九州,きゅうしゅう,(place name),19
+71,十,十,とお/じゅう,ten,20
+72,十,十月,じゅうがつ,October,20
+73,十,十日,とおか,the 10th day of a month,20
+74,十,十分な,じゅうぶんな,enough,20
+75,百,百,ひゃく,100,21
+76,百,三百,さんびゃく,300,21
+77,百,六百,ろっぴゃく,600,21
+78,百,百科事典,ひゃっかじてん,encyclopedia,21
+79,千,千,せん,1000,22
+80,千,二千,にせん,2000,22
+81,千,三千,さんぜん,3000,22
+82,千,千葉県,ちばけん,Chiba Prefecture,22
+83,万,万,まん,10000,23
+84,万,一万,いちまん,10000,23
+85,万,万国,ばんこく,all nations,23
+86,万,万年筆,まんねんひつ,fountain pen,23
+87,円,円,えん,"yen, circle",24
+88,円,四万円,よんまんえん,40000 yen,24
+89,円,円高,えんだか,strong yen,24
+90,年,年,とし,"year, age",25
+91,年,二千年,にせんねん,the year 2000,25
+92,年,来年,らいねん,next year,25
+93,年,年金,ねんきん,pension,25
+94,上,上,うえ,"above, on",26
+95,上,上がる,あがる,to go up,26
+96,上,水上スキー,すいじょうスキー,water-skiing,26
+97,上,上着,うわぎ,jacket,26
+98,下,下,した,under,27
+99,下,下がる,さがる,to go down,27
+100,下,上下,じょうげ,up and down,27
+101,下,地下鉄,ちかてつ,subway,27
+102,中,中,なか,inside,28
+103,中,一日中,いちにちじゅう,all day (long),28
+104,中,中学,ちゅうがく,junior high school,28
+105,中,中心,ちゅうしん,center,28
+106,半,半年,はんとし,half a year,29
+107,半,半分,はんぶん,half,29
+108,半,四時半,よじはん,4:30,29
+109,半,半日,はんにち,half a day,29
+110,分,分ける,わける,to divide,30
+111,分,分かる,わかる,to understand,30
+112,分,10分,じゅっぷん,10 minutes,30
+113,分,十分,じゅうぶん,enough,30
+114,人,人,ひと,person,31
+115,人,一人,ひとり,one person,31
+116,人,三人,さんにん,three people,31
+117,人,日本人,にほんじん,Japanese,31
+118,子,子ども,こども,child,32
+119,子,女子,じょし,female,32
+120,子,親子,おやこ,parent and child,32
+121,子,調子,ちょうし,condition,32
+122,女,女の人,おんなのひと,woman,33
+123,女,女の子,おんなのこ,girl,33
+124,女,女性,じょせい,woman / female,33
+125,男,男の子,おとこのこ,boy,34
+126,男,男女,だんじょ,man and woman,34
+127,男,長男,ちょうなん,eldest son,34
+128,男,男性,だんせい,man / male,34
+129,目,目,め,eye,35
+130,目,一日目,いちにちめ,the first day,35
+131,目,目薬,めぐすり,eye lotion / eye drops,35
+132,目,目的,もくてき,purpose,35
+133,口,口,くち,mouth,36
+134,口,入り口,いりぐち,entrance,36
+135,口,人口,じんこう,population,36
+136,口,非常口,ひじょうぐち,emergency exit,36
+137,耳,耳,みみ,ear,37
+138,耳,耳鼻科,じびか,E.N.T. clinic,37
+139,手,手,て,hand,38
+140,手,上手な,じょうずな,skillful,38
+141,手,下手な,へたな,unskillful,38
+142,手,手紙,てがみ,letter,38
+143,足,足,あし,leg / foot,39
+144,足,一足,いっそく,a pair (of shoes),39
+145,足,足りる,たりる,to be enough,39
+146,足,遠足,えんそく,excursion,39
+147,力,力,ちから,power / strength,40
+148,力,水力,すいりょく,water power / hydraulic power,40
+149,力,体力,たいりょく,physical strength,40
+150,父,父,ちち,father,41
+151,父,お父さん,おとうさん,father,41
+152,父,父親,ちちおや,father,41
+153,母,母,はは,mother,42
+154,母,お母さん,おかあさん,mother,42
+155,母,父母,ふぼ,parents,42
+156,母,母国,ぼこく,mother country,42
+157,先,先,さき,future / ahead,43
+158,先,先月,せんげつ,last month,43
+159,先,先輩,せんぱい,senior,43
+160,生,生まれる,うまれる,to be born,44
+161,生,先生,せんせい,teacher,44
+162,生,生きる,いきる,to live,44
+163,生,生活,せいかつ,life / living,44
+164,学,学生,がくせい,student,45
+165,学,大学,だいがく,university,45
+166,学,科学,かがく,science,45
+167,学,留学する,りゅうがくする,to study abroad,45
+168,校,学校,がっこう,school,46
+169,校,校長,こうちょう,school master / principal,46
+170,校,小学校,しょうがっこう,primary school,46
+171,校,母校,ぼこう,alma mater,46
+172,友,友達,ともだち,friend,47
+173,友,友人,ゆうじん,friend,47
+174,友,親友,しんゆう,close friend,47
+175,本,本,ほん,book,48
+176,本,日本,にほん / にっぽん,Japan,48
+177,本,本屋,ほんや,book shop,48
+178,本,山本さん,やまもとさん,Mr./Ms. Yamamoto,48
+179,毎,毎日,まいにち,every day,49
+180,毎,毎月,まいつき,every month,49
+181,毎,毎年,まいとし / まいねん,every year,49
+182,毎,毎朝,まいあさ,every morning,49
+183,何,何,なに,what,50
+184,何,何月,なんがつ,what month,50
+185,何,何人,なんにん,how many people,50
+186,何,何時,なんじ,what time,50
+187,前,前,まえ,the front / before,51
+188,前,三日前,みっかまえ,three days ago,51
+189,前,前半,ぜんはん,the first half,51
+190,後,後,あと,after / later,52
+191,後,後ろ,うしろ,back / behind,52
+192,後,前後,ぜんご,front and back / back and forth,52
+193,後,最後,さいご,the last,52
+194,外,外,そと,outside,53
+195,外,外国,がいこく,foreign country,53
+196,左,左,ひだり,left,54
+197,左,左手,ひだりて,left hand,54
+198,左,左側,ひだりがわ,left side,54
+199,右,右,みぎ,right,55
+200,右,右手,みぎて,right hand,55
+201,右,左右,さゆう,left and right,55
+202,右,右側,みぎがわ,right side,55
+203,東,東,ひがし,east,56
+204,東,東口,ひがしぐち,the east gate,56
+205,東,東京,とうきょう,Tokyo,56
+206,東,東洋,とうよう,the Orient,56
+207,西,西,にし,west,57
+208,西,西口,にしぐち,the west gate,57
+209,西,東西,とうざい,east and west,57
+210,西,西洋,せいよう,the West,57
+211,南,南,みなみ,south,58
+212,南,南口,みなみぐち,the south gate,58
+213,南,東南アジア,とうなんアジア,Southeast Asia,58
+214,南,南極,なんきょく,South Pole / Antarctica,58
+215,北,北,きた,north,59
+216,北,北口,きたぐち,the north gate,59
+217,北,南北,なんぼく,north and south,59
+218,北,北海道,ほっかいどう,Hokkaido,59
+219,名,名前,なまえ,name,60
+220,名,十名,じゅうめい,10 people,60
+221,名,有名な,ゆうめいな,famous,60
+222,名,人名,じんめい,a person's name,60
+223,牛,牛,うし,cow,61
+224,牛,水牛,すいぎゅう,buffalo,61
+225,牛,牛肉,ぎゅうにく,beef,61
+226,牛,牛乳,ぎゅうにゅう,cow's milk,61
+227,馬,馬,うま,horse,62
+228,馬,馬車,ばしゃ,carriage,62
+229,馬,トロイの木馬,トロイのもくば,Trojan horse,62
+230,馬,乗馬,じょうば,horse riding,62
+231,魚,魚,さかな,fish,63
+232,魚,金魚,きんぎょ,goldfish,63
+233,魚,人魚,にんぎょ,mermaid,63
+234,貝,貝,かい,shellfish,64
+235,貝,貝がら,かいがら,shell,64
+236,雨,雨,あめ,rain,65
+237,雨,大雨,おおあめ,heavy rain,65
+238,雨,雨期,うき,rainy season,65
+239,天,天,てん,heaven,66
+240,天,天気,てんき,weather,66
+241,天,天国,てんごく,paradise,66
+242,気,天気,てんき,weather,67
+243,気,人気,にんき,popularity,67
+244,気,気をつける,きをつける,to take care,67
+245,気,気持ち,きもち,feeling,67
+246,車,車,くるま,car,68
+247,車,電車,でんしゃ,train,68
+248,車,自動車,じどうしゃ,automobile,68
+249,門,門,もん,gate,69
+250,門,正門,せいもん,main gate,69
+251,門,専門,せんもん,major field of study / specialty,69
+252,午,午前,ごぜん,(in the) morning / A.M.,70
+253,午,午後,ごご,(in the) afternoon / P.M.,70
+254,大,大きい,おおきい,big,71
+255,大,大学,だいがく,university,71
+256,大,アジア大会,アジアたいかい,Asian Games,71
+257,大,大人,おとな,adult,71
+258,小,小さい,ちいさい,small,72
+259,小,小川,おがわ,small stream,72
+260,小,小学校,しょうがっこう,primary school,72
+261,小,子犬,こいぬ,puppy,72
+262,高,高い,たかい,high / expensive,73
+263,高,高校生,こうこうせい,high school student,73
+264,高,円高,えんだか,strong yen,73
+265,安,安い,やすい,cheap,74
+266,安,安心する,あんしんする,to be relieved,74
+267,安,安全,あんぜん,safety,74
+268,新,新しい,あたらしい,new,75
+269,新,新聞,しんぶん,newspaper,75
+270,新,新人,しんじん,newcomer,75
+271,新,新年,しんねん,new year,75
+272,古,古い,ふるい,old,76
+273,古,中古車,ちゅうこしゃ,used car,76
+274,長,長い,ながい,long,77
+275,長,社長,しゃちょう,company president,77
+276,長,学長,がくちょう,university president,77
+277,長,校長,こうちょう,school principal,77
+278,多,多い,おおい,many / much,78
+279,多,多少,たしょう,a little,78
+280,多,多数決,たすうけつ,decision by majority,78
+281,少,少ない,すくない,few / little,79
+282,少,少し,すこし,a few / a little,79
+283,少,少年,しょうねん,boy,79
+284,少,少女,しょうじょ,girl,79
+285,早,早い,はやい,early,80
+286,早,早朝,そうちょう,early morning,80
+287,早,早送り,はやおくり,fast forward,80
+288,行,行く,いく,to go,81
+289,行,行き方,いきかた,how to get to Place,81
+290,行,銀行,ぎんこう,bank,81
+291,行,三行目,さんぎょうめ,the third line,81
+292,来,来る,くる,to come,82
+293,来,来年,らいねん,next year,82
+294,来,来週,らいしゅう,next week,82
+295,来,将来,しょうらい,future,82
+296,食,食べる,たべる,to eat,83
+297,食,外食する,がいしょくする,to eat out,83
+298,食,食料品,しょくりょうひん,grocery,83
+299,食,食堂,しょくどう,dining hall,83
+300,見,見る,みる,"to see, to look at",84
+301,見,みせる,みせる,to show,84
+302,見,見学する,けんがくする,to visit for study,84
+303,見,意見,いけん,opinion,84
+304,入,入る,はいる,to enter,85
+305,入,入れる,いれる,to put in,85
+306,入,入り口,いりぐち,entrance,85
+307,入,入学する,にゅうがくする,to enter a school,85
+308,出,出る,でる,to go/come out,86
+309,出,出す,だす,to take out,86
+310,出,出口,でぐち,exit,86
+311,出,出席する,しゅっせきする,to attend,86
+312,立,立つ,たつ,to stand,87
+313,立,立食パーティー,りっしょくパーティー,buffet party,87
+314,立,国立大学,こくりつだいがく,national university,87
+315,書,書く,かく,to write,88
+316,書,読書,どくしょ,reading books,88
+317,書,下書き,したがき,draft,88
+318,書,辞書,じしょ,dictionary,88
+319,言,言う,いう,to say,89
+320,言,言語,げんご,language,89
+321,言,伝言,でんごん,message,89
+322,飲,飲む,のむ,to drink,90
+323,飲,飲み物,のみもの,beverage,90
+324,飲,飲食店,いんしょくてん,restaurants,90
+325,話,話す,はなす,to speak / talk,91
+326,話,話,はなし,story,91
+327,話,電話,でんわ,telephone,91
+328,話,会話,かいわ,conversation,91
+329,読,読む,よむ,to read,92
+330,読,読書,どくしょ,reading books,92
+331,語,日本語,にほんご,Japanese language,93
+332,語,中国語,ちゅうごくご,Chinese language,93
+333,語,外国語,がいこくご,foreign language,93
+334,間,あいだ,あいだ,between,94
+335,間,時間,じかん,time,94
+336,間,一年間,いちねんかん,(for) a year,94
+337,間,間に合う,まにあう,to be in time,94
+338,聞,聞く,きく,to listen to,95
+339,聞,聞こえる,きこえる,can be heard,95
+340,聞,新聞,しんぶん,newspaper,95
+341,買,買う,かう,to buy,96
+342,買,買い物する,かいものする,to shop,96
+343,買,売買する,ばいばいする,to buy and sell,96
+344,休,休む,やすむ,to rest,97
+345,休,休み,やすみ,holiday,97
+346,休,休日,きゅうじつ,holiday,97
+347,休,夏休み,なつやすみ,summer vacation,97
+348,時,とき,とき,"time, when",98
+349,時,４時,よじ,4 o'clock,98
+350,時,時間,じかん,one hour,98
+351,時,時計,とけい,"clock, watch",98
+352,週,一週間,いっしゅうかん,one week,99
+353,週,来週,らいしゅう,next week,99
+354,週,先週,せんしゅう,last week,99
+355,週,今週,こんしゅう,this week,99
+356,道,道,みち,"street, road, way",100
+357,道,車道,しゃどう,roadway,100
+358,道,水道,すいどう,waterworks,100
+359,道,書道,しょどう,calligraphy,100
+360,今,今,いま,now,101
+361,今,今月,こんげつ,this month,101
+362,今,今年,ことし,this year,101
+363,今,今日,きょう,today,101
+364,会,会う,あう,to meet,102
+365,会,会話,かいわ,conversation,102
+366,会,新年会,しんねんかい,New Year's party,102
+367,会,会議,かいぎ,meeting,102
+368,社,社会,しゃかい,society,103
+369,社,会社,かいしゃ,company,103
+370,社,社長,しゃちょう,president,103
+371,社,神社,じんじゃ,shrine,103
+372,店,店,みせ,shop,104
+373,店,店員,てんいん,sales person,104
+374,店,売店,ばいてん,stand / kiosk,104
+375,駅,駅,えき,station,105
+376,駅,駅長,えきちょう,stationmaster,105
+377,駅,駅前,えきまえ,around the station,105
+378,花,花,はな,flower,106
+379,花,花見,はなみ,cherry-blossom viewing,106
+380,花,花火,はなび,firework,106
+381,花,花屋,はなや,florist,106
+382,国,国,くに,"country, nation",107
+383,国,外国,がいこく,foreign country,107
+384,国,中国,ちゅうごく,China,107
+385,国,国際会議,こくさいかいぎ,international conference,107
+386,白,白い,しろい,white,108
+387,白,白書,はくしょ,official paper / white paper,108
+388,白,真っ白,まっしろ,snow white,108
+389,空,空,そら,sky,109
+390,空,空気,くうき,air,109
+391,空,大空,おおぞら,big sky,109
+392,空,空港,くうこう,airport,109
+393,電,電車,でんしゃ,train,110
+394,電,電話,でんわ,telephone,110
+395,電,電気,でんき,"electricity, light",110
+396,電,電池,でんち,battery,110
+397,住,住む,すむ,to live,111
+398,住,住民,じゅうみん,inhabitants / residents,111
+399,所,ところ,ところ,place,112
+400,所,住所,じゅうしょ,address,112
+401,所,台所,だいどころ,kitchen,112
+402,所,場所,ばしょ,place,112
+403,京,東京,とうきょう,Tokyo,113
+404,都,東京都,とうきょうと,metropolis of Tokyo,114
+405,都,都合がいい,つごうがいい,convenient,114
+406,都,首都,しゅと,capital,114
+407,府,京都府,きょうとふ,Kyoto Prefecture,115
+408,府,大阪府,おおさかふ,Osaka Prefecture,115
+409,府,政府,せいふ,government,115
+410,県,山口県,やまぐちけん,Yamaguchi Prefecture,116
+411,県,県知事,けんちじ,prefectural governor,116
+412,市,京都市,きょうとし,Kyoto City,117
+413,市,市長,しちょう,mayor,117
+414,市,市場,いちば,market,117
+415,区,北区,きたく,Kita Ward,118
+416,区,文京区,ぶんきょうく,Bunkyo Ward,118
+417,区,区長,くちょう,ward mayor,118
+418,町,町,まち,town,119
+419,町,下町,したまち,downtown,119
+420,町,町長,ちょうちょう,town leader / mayor,119
+421,村,村,むら,village,120
+422,村,村人,むらびと,villager,120
+423,村,村長,そんちょう,village leader / mayor,120
+424,明,明るい,あかるい,"bright, cheerful",121
+425,明,明日,あした/あす,tomorrow,121
+426,明,説明,せつめい,explanation,121
+427,明,発明,はつめい,invention,121
+428,暗,暗い,くらい,dark,122
+429,暗,暗号,あんごう,secret code,122
+430,遠,遠い,とい,far,123
+431,遠,遠足,えんそく,excursion,123
+432,近,近い,ちかい,near,124
+433,近,近所,きんじょ,neighborhood,124
+434,近,最近,さいきん,recently,124
+435,強,強い,つよい,strong,125
+436,強,勉強する,べんきょうする,to study,125
+437,強,強風,きょうふう,big wind,125
+438,弱,弱い,よわい,weak,126
+439,弱,強弱,きょうじゃく,strong and weak,126
+440,重,重い,おもい,heavy,127
+441,重,重大な,じゅうだいな,important,127
+442,重,体重,たいじゅう,body weight,127
+443,軽,軽い,かるい,light,128
+444,軽,軽食,けいしょく,snack,128
+445,太,太い,ふとい,fat,129
+446,太,太陽,たいよう,sun,129
+447,細,細い,ほそい,slender,130
+448,細,細かい,こまかい,fine,130
+449,細,細工,さいく,craftsmanship,130
+450,特,特に,とくに,especially,131
+451,特,特別な,とくべつな,special,131
+452,特,特急,とっきゅう,limited express,131
+453,別,別れる,わかれる,to separate / to part,132
+454,別,別々に,べつべつに,separately,132
+455,別,区別する,くべつする,distinguish,132
+456,別,分別する,ぶんべつする,classify,132
+457,有,有る,ある,"to exist, to be",133
+458,有,有名な,ゆうめいな,famous,133
+459,有,有料,ゆうりょう,pay / toll,133
+460,便,便り,たより,letter / news,134
+461,便,郵便局,ゆうびんきょく,post office,134
+462,便,船便,ふなびん,sea mail,134
+463,利,便利な,べんりな,convenient,135
+464,利,利用する,りようする,to use,135
+465,利,利子,りし,interest,135
+466,利,有利な,ゆうりな,advantageous,135
+467,不,不便な,ふべんな,inconvenient,136
+468,不,不足する,ふそくする,run short,136
+469,不,不安な,ふあんな,anxious,136
+470,不,不運な,ふうんな,unfortunate,136
+471,切,切る,きる,to cut,137
+472,切,切手,きって,postage stamp,137
+473,切,大切な,たいせつな,important,137
+474,切,親切な,しんせつな,kind,137
+475,元,元気な,げんきな,"fine, active",138
+476,元,元日,がんじつ,New Year's Day,138
+477,元,紀元前,きげんぜん,before Christ (B.C.),138
+478,好,好きな,すきな,favorite / liked,139
+479,好,好意,こうい,affection,139
+480,好,好物,こうぶつ,favorite dish,139
+481,急,急に,きゅうに,suddenly,140
+482,急,特急,とっきゅう,limited express,140
+483,急,急ぐ,いそぐ,to hurry,140
+484,急,急用,きゅうよう,urgent business,140
+485,低,低い,ひくい,low,141
+486,低,低下する,ていかする,to fall,141
+487,低,低気圧,ていきあつ,low pressure,141
+488,広,広い,ひろい,spacious / wide,142
+489,広,広場,ひろば,plaza,142
+490,広,広大な,こうだいな,vast,142
+491,短,短い,みじかい,short,143
+492,短,短時間,たんじかん,short time,143
+493,良,良い,よい,good,144
+494,良,良心,りょうしん,conscience,144
+495,悪,悪い,わるい,bad,145
+496,悪,悪人,あくにん,bad person,145
+497,正,正しい,ただしい,"correct, right",146
+498,正,正月,しょうがつ,the New Year,146
+499,正,正門,せいもん,main gate,146
+500,変,変わる,かわる,to change,147
+501,変,変な,へんな,strange,147
+502,変,大変な,たいへんな,hard / tough,147
+503,変,変化する,へんかする,to change,147
+504,赤,赤い,あかい,red,148
+505,赤,赤ちゃん,あかちゃん,baby,148
+506,赤,赤信号,あかしんごう,red light,148
+507,赤,赤道,せきどう,equator,148
+508,青,青い,あおい,blue,149
+509,青,青空,あおぞら,blue sky,149
+510,青,青春,せいしゅん,youth,149
+511,黒,黒い,くろい,black,150
+512,黒,真っ黒,まっくろ,pitch black,150
+513,映,映す,うつす,to reflect,151
+514,映,映画,えいが,movie,151
+515,映,映画館,えいがかん,movie theater,151
+516,画,計画,けいかく,plan,152
+517,画,画家,がか,painter,152
+518,画,日本画,にほんが,Japanese painting,152
+519,音,音,おと,sound,153
+520,音,発音,はつおん,pronunciation,153
+521,音,高音,こうおん,high note,153
+522,楽,楽しい,たのしい,enjoyable,154
+523,楽,音楽,おんがく,music,154
+524,楽,楽な,らくな,easy / comfortable,154
+525,歌,歌う,うたう,to sing,155
+526,歌,歌手,かしゅ,singer,155
+527,写,写真,しゃしん,a photograph,156
+528,写,写す,うつす,to copy,156
+529,真,真ん中,まんなか,midmost / center,157
+530,真,真っ白,まっしろ,pure white,157
+531,真,真実,しんじつ,truth,157
+532,旅,旅行する,りょこうする,to take a trip,158
+533,旅,旅館,りょかん,Japanese-style hotel,158
+534,旅,旅,たび,trip,158
+535,世,世話をする,せわをする,to take care of,159
+536,世,世の中,よのなか,"world, society",159
+537,世,21世紀,にじゅういっせいき,21st century,159
+538,界,世界,せかい,world,160
+539,界,政界,せいかい,political world,160
+540,仕,仕事,しごと,job,161
+541,仕,仕方ががない,しかたがない,there is no choice,161
+542,事,火事,かじ,fire,162
+543,事,用事,ようじ,business,162
+544,事,大事な,だいじな,important,162
+545,事,事,こと,matter,162
+546,銀,銀行,ぎんこう,bank,163
+547,銀,銀,ぎん,silver,163
+548,銀,銀座,ぎんざ,Ginza (place),163
+549,員,会社員,かいしゃいん,employee of a company,164
+550,員,銀行員,ぎんこういん,bank clerk,164
+551,員,店員,てんいん,clerk,164
+552,員,会員,かいいん,membership,164
+553,医,医者,いしゃ,doctor,165
+554,医,医学,いがく,medical science,165
+555,医,医院,いいん,doctor's office,165
+556,者,者,もの,person,166
+557,者,歯医者,はいしゃ,dentist,166
+558,者,学者,がくしゃ,scholar,166
+559,者,作者,さくしゃ,author,166
+560,働,働く,はたらく,to work,167
+561,働,労働者,ろうどうしゃ,"laborer, worker",167
+562,屋,本屋,ほんや,bookstore,168
+563,屋,屋上,おくじょう,"roof, housetop",168
+564,屋,八百屋,やおや,grocery,168
+565,屋,部屋,へや,room,168
+566,産,産む,うむ,to give birth,169
+567,産,生産する,せいさんする,to produce,169
+568,産,財産,ざいさん,fortune,169
+569,業,産業,さんぎょう,industry,170
+570,業,工業,こうぎょう,manufacture,170
+571,業,授業,じゅぎょう,"class, lesson",170
+572,業,本日休業,ほんじつきゅうぎょう,closed today,170
+573,林,林,はやし,"wood, grove",171
+574,林,小林さん,こばやしさん,Mr. or Ms. Kobayashi,171
+575,林,林道,りんどう,forest road,171
+576,森,森,もり,forest,172
+577,森,森さん,もりさん,Mr. or Ms. Mori,172
+578,森,森林,しんりん,forest,172
+579,地,地図,ちず,map,173
+580,地,地下鉄,ちかてつ,subway,173
+581,地,土地,とち,land,173
+582,地,地震,じしん,earthquake,173
+583,池,池,いけ,pond,174
+584,池,電池,でんち,battery,174
+585,海,海,うみ,"the sea, the ocean",175
+586,海,海外,かいがい,overseas,175
+587,海,北海道,ほっかいどう,Hokkaido,175
+588,洋,西洋,せいよう,the West,176
+589,洋,東洋,とうよう,the East,176
+590,洋,洋服,ようふく,clothes,176
+591,洋,大西洋,たいせいよう,the Atlantic (Ocean),176
+592,雪,雪,ゆき,snow,177
+593,雪,大雪,おおゆき,heavy snow,177
+594,雪,新雪,しんせつ,fresh snow,177
+595,光,光,ひかり,light,178
+596,光,光る,ひかる,to shine,178
+597,光,日光,にっこう,sunlight,178
+598,光,観光,かんこう,sightseeing,178
+599,台,台,だい,table,179
+600,台,台所,だいどころ,kitchen,179
+601,台,〜台,〜だい,counter for machines,179
+602,台,土台,どだい,foundation,179
+603,風,風,かぜ,wind,180
+604,風,台風,たいふう,typhoon,180
+605,風,洋風,ようふう,western style,180
+606,風,風景,ふうけい,scenery,180
+607,季,四季,しき,four seasons,181
+608,節,季節,きせつ,season,182
+609,節,節分,せつぶん,the traditional end of winter,182
+610,春,春,はる,spring,183
+611,春,青春,せいしゅん,youth,183
+612,夏,夏,なつ,summer,184
+613,夏,夏休み,なつやすみ,summer holidays,184
+614,夏,夏まつり,なつまツり,summer festival,184
+615,夏,夏服,なつふく,summer clothes,184
+616,秋,秋,あき,autumn,185
+617,秋,秋田県,あきたけん,Akita Prefecture,185
+618,秋,秋分の日,しゅうぶんのひ,Autumnal Equinox Day,185
+619,冬,冬,ふゆ,winter,186
+620,冬,冬休み,ふゆやすみ,winter holidays,186
+621,冬,春夏秋冬,しゅんかしゅうとう,"spring, summer, autumn, winter",186
+622,暑,暑い,あつい,hot,187
+623,暑,残暑,ざんしょ,late-summer heat,187
+624,寒,寒い,さむい,cold,188
+625,寒,寒波,かんぱ,cold wave,188
+626,暖,暖かい,あたたかい,warm,189
+627,暖,暖冬,だんとう,warm winter,189
+628,暖,暖房,だんぼう,heating,189
+629,暖,温暖化,おんだんか,global warming,189
+630,涼,涼しい,すずしい,cool,190
+631,涼,涼風,りょうふう,cool breeze,190
+632,体,体,からだ,body,191
+633,体,体力,たいりょく,physical strength,191
+634,体,体重,たいじゅう,body weight,191
+635,頭,頭,あたま,head,192
+636,頭,頭がいい,あたまがいい,smart,192
+637,頭,頭痛,ずつう,headache,192
+638,顔,顔,かお,face,193
+639,顔,顔色,かおいろ,complexion,193
+640,首,首,くび,neck,194
+641,首,首都,しゅと,capital,194
+642,首,手首,てくび,wrist,194
+643,首,首相,しゅしょう,prime minister,194
+644,心,心,こころ,heart,195
+645,心,安心する,あんしんする,to be relieved,195
+646,心,心配する,しんぱいする,to worry,195
+647,心,中心,ちゅうしん,center,195
+648,声,声,こえ,voice,196
+649,声,大声,おおごえ,loud voice,196
+650,病,病気,びょうき,illness,197
+651,病,病院,びょういん,hospital,197
+652,病,病人,びょうにん,sick person,197
+653,病,急病,きゅうびょう,sudden illness,197
+654,薬,薬,くすり,medicine,198
+655,薬,目薬,めぐすり,eye lotion,198
+656,薬,薬品,やくひん,medicine,198
+657,科,科学,かがく,science,199
+658,科,教科書,きょうかしょ,textbook,199
+659,科,外科,げか,surgery,199
+660,内,内側,うちがわ,inside,200
+661,内,内科,ないか,internal medicine,200
+662,内,車内,しゃない,in the car,200
+663,内,案内する,あんないする,to guide,200
+664,朝,朝,あさ,morning,201
+665,朝,今朝,けさ,this morning,201
+666,朝,朝日,あさひ,the morning sun,201
+667,朝,朝食,ちょうしょく,breakfast,201
+668,昼,昼,ひる,noon,202
+669,昼,昼休み,ひるやすみ,lunch break,202
+670,昼,昼ご飯,ひるごはん,lunch,202
+671,昼,昼食,ちゅうしょく,lunch,202
+672,夜,夜,よる,night,203
+673,夜,今夜,こんや,tonight,203
+674,夜,夜店,よみせ,night stall,203
+675,夜,夜食,やしょく,bedtime snack,203
+676,夕,夕日,ゆうひ,sunset,204
+677,夕,夕食,ゆうしょく,supper,204
+678,夕,七夕,たなばた,Star Festival,204
+679,方,読み方,よみかた,how to read,205
+680,方,夕方,ゆうがた,evening,205
+681,方,あの方,あのかた,that person,205
+682,方,方法,ほうほう,method,205
+683,晩,今晩,こんばん,tonight,206
+684,晩,毎晩,まいばん,every night,206
+685,晩,晩ご飯,ばんごはん,dinner,206
+686,計,時計,とけい,"watch, clock",207
+687,計,計画,けいかく,plan,207
+688,計,計る,はかる,to measure,207
+689,計,合計,ごうけい,total,207
+690,曜,日曜日,にちようび,Sunday,208
+691,曜,水曜日,すいようび,Wednesday,208
+692,曜,何曜日,なんようび,what day of the week,208
+693,以,以上,いじょう,more than,209
+694,以,以下,いか,less than,209
+695,以,以外,いがい,except,209
+696,以,以前,いぜん,previously,209
+697,度,一度,いちど,once,210
+698,度,今度,こんど,next time,210
+699,度,25度,にじゅうごど,25 degrees,210
+700,度,温度,おんど,temperature,210
+701,止,止まる,とまる,to stop,211
+702,止,中止する,ちゅうしする,to call off / cancel,211
+703,止,一時停止,いちじていし,stop sign / temporary stop,211
+704,歩,歩く,あるく,to walk,212
+705,歩,散歩する,さんぽする,to take a walk,212
+706,歩,進歩する,しんぽする,to make progress,212
+707,歩,横断歩道,おうだんほどう,crosswalk,212
+708,走,走る,はしる,to run,213
+709,走,力走する,りきそうする,to run as fast as possible,213
+710,起,起きる,おきる,to get up,214
+711,起,早起き,はやおき,early riser,214
+712,起,起業家,きぎょうか,entrepreneur,214
+713,持,持つ,もつ,to hold / have,215
+714,持,気持ち,きもち,feeling,215
+715,持,持ち物,もちもの,belongings,215
+716,持,支持する,しじする,to support,215
+717,待,待つ,まつ,to wait,216
+718,待,待ち合わせ,まちあわせ,rendezvous / meeting,216
+719,待,招待する,しょうたいする,to invite,216
+720,待,期待する,きたいする,to hope / expect,216
+721,借,借りる,かりる,to borrow,217
+722,借,借金,しゃっきん,debt,217
+723,貸,貸す,かす,to lend,218
+724,貸,貸家,かしや,house for rent,218
+725,貸,賃貸マンション,ちんたいマンション,rented apartment,218
+726,始,始める,はじめる,to begin / start,219
+727,始,開始する,かいしする,to start,219
+728,始,始発,しはつ,first train,219
+729,終,終わる,おわる,to end,220
+730,終,終電,しゅうでん,last train,220
+731,終,最終回,さいしゅうかい,final episode,220
+732,家,家,いえ,house,221
+733,家,画家,がか,painter,221
+734,家,家内,かない,wife,221
+735,家,家庭,かてい,family / household,221
+736,族,家族,かぞく,family,222
+737,族,民族,みんぞく,race / ethnic group,222
+738,族,水族館,すいぞくかん,aquarium,222
+739,私,私,わたし / わたくし,I / me,223
+740,私,私立大学,しりつだいがく,private university,223
+741,私,私生活,しせいかつ,private life,223
+742,自,自分,じぶん,oneself,224
+743,自,自動ドア,じどうドア,automatic door,224
+744,自,自由,じゆう,freedom,224
+745,自,自然,しぜん,nature,224
+746,親,親,おや,parent,225
+747,親,母親,ははおや,mother,225
+748,親,親切な,しんせつな,kind,225
+749,親,親しい,したしい,close / intimate,225
+750,両,両親,りょうしん,parents,226
+751,両,両方,りょうほう,both,226
+752,両,両手,りょうて,both hands,226
+753,両,両替え,りょうがえ,money exchange,226
+754,兄,兄,あに,one's elder brother,227
+755,兄,お兄さん,おにいさん,elder brother,227
+756,弟,弟,おとうと,one's younger brother,228
+757,弟,兄弟,きょうだい,brothers / siblings,228
+758,姉,姉,あね,one's elder sister,229
+759,姉,お姉さん,おねえさん,elder sister,229
+760,妹,妹,いもうと,one's younger sister,230
+761,妹,姉妹,しまい,sisters,230
+762,妹,姉妹都市,しまいとし,sister city,230
+763,活,生活,せいかつ,living / life,231
+764,活,活動,かつどう,activity,231
+765,活,活発な,かっぱつな,active / lively,231
+766,回,回す,まわす,to turn,232
+767,回,1回,いっかい,once,232
+768,回,前回,ぜんかい,the last time,232
+769,回,回転ずし,かいてんずし,conveyor-belt sushi,232
+770,主,主人,しゅじん,husband / master,233
+771,主,主食,しゅしょく,staple food,233
+772,主,主な,おもな,main / principal,233
+773,主,持ち主,もちぬし,owner,233
+774,色,色,いろ,color,234
+775,色,茶色,ちゃいろ,brown,234
+776,色,特色,とくしょく,characteristic / feature,234
+777,色,景色,けしき,scenery,234
+778,形,形,かたち,shape / form,235
+779,形,人形,にんぎょう,doll,235
+780,形,正方形,せいほうけい,square,235
+781,形,図形,ずけい,figure / diagram,235
+782,品,品物,しなもの,goods / item,236
+783,品,食料品,しょくりょうひん,food / groceries,236
+784,品,電気製品,でんきせいひん,electrical appliance,236
+785,品,作品,さくひん,piece of work / artwork,236
+786,民,国民,こくみん,citizens of the state,237
+787,民,市民,しみん,citizen,237
+788,民,民族,みんぞく,ethnic group / race,237
+789,民,民主主義,みんしゅしゅぎ,democracy,237
+790,服,服,ふく,clothes,238
+791,服,洋服,ようふく,Western clothing,238
+792,服,和服,わふく,Japanese clothing,238
+793,服,制服,せいふく,uniform,238
+794,犬,犬,いぬ,dog,239
+795,犬,子犬,こいぬ,puppy,239
+796,犬,日本犬,にほんけん,Japanese dog,239
+797,同,同じ,おなじ,same,240
+798,同,同時に,どうじに,at the same time,240
+799,同,同級生,どうきゅうせい,classmate,240
+800,米,米,こめ,rice,241
+801,米,米国,べいこく,U.S.A.,241
+802,米,白米,はくまい,polished rice,241
+803,料,料金,りょうきん,fee / charge,242
+804,料,食料品,しょくりょうひん,foods / groceries,242
+805,料,資料,しりょう,documents / data,242
+806,料,材料,ざいりょう,materials / ingredients,242
+807,理,料理,りょうり,cooking,243
+808,理,地理,ちり,geography,243
+809,理,無理な,むりな,impossible,243
+810,理,理由,りゆう,reason,243
+811,肉,肉,にく,meat,244
+812,肉,牛肉,ぎゅうにく,beef,244
+813,肉,肉屋,にくや,butcher,244
+814,肉,筋肉,きんにく,muscle,244
+815,鳥,鳥,とり,bird,245
+816,鳥,小鳥,ことり,little bird,245
+817,鳥,白鳥,はくちょう,swan,245
+818,野,野原,のはら,fields,246
+819,野,野鳥,やちょう,wild bird,246
+820,野,分野,ぶんや,genre / area / field,246
+821,菜,野菜,やさい,vegetable,247
+822,菜,菜食,さいしょく,vegetarian diet,247
+823,菜,青菜,あおな,leafy green vegetable,247
+824,茶,お茶,おちゃ,tea / green tea,248
+825,茶,茶色,ちゃいろ,brown,248
+826,茶,喫茶店,きっさてん,coffee shop / cafe,248
+827,茶,紅茶,こうちゃ,black tea,248
+828,飯,ご飯,ごはん,cooked rice / meal,249
+829,飯,夕飯,ゆうはん,supper / dinner,249
+830,飯,晩ご飯,ばんごはん,supper / dinner,249
+831,飯,昼飯,ひるめし,lunch,249
+832,味,味,あじ,taste / flavor,250
+833,味,意味,いみ,meaning,250
+834,味,趣味,しゅみ,hobby,250
+835,味,興味,きょうみ,interest,250
+836,代,代わる,かわる,take somebody's place / replace,251
+837,代,代わりに,かわりに,instead,251
+838,代,時代,じだい,era / age,251
+839,代,ガス代,ガスだい,gas charge,251
+840,使,使う,つかう,to use,252
+841,使,大使館,たいしかん,embassy,252
+842,使,使用中,しようちゅう,be engaged in / in use,252
+843,作,作る,つくる,to make,253
+844,作,作文,さくぶん,essay / composition,253
+845,作,作家,さっか,writer / author,253
+846,作,作業,さぎょう,operation / work,253
+847,化,変化する,へんかする,to change,254
+848,化,文化,ぶんか,culture,254
+849,化,化学,かがく,chemistry,254
+850,化,映画化,えいがか,making into a movie,254
+851,信,信じる,しんじる,to believe,255
+852,信,信号,しんごう,signal / traffic light,255
+853,信,自信,じしん,confidence,255
+854,信,通信,つうしん,correspondence / telecommunication,255
+855,進,進む,すすむ,to proceed / advance,256
+856,進,進歩,しんぽ,progress,256
+857,進,先進国,せんしんこく,advanced nation,256
+858,送,送る,おくる,to send,257
+859,送,送金,そうきん,remittance / send money,257
+860,送,放送,ほうそう,broadcasting,257
+861,送,送信,そうしん,send (e-mail),257
+862,返,返す,かえす,return / give back,258
+863,返,返事,へんじ,answer / reply,258
+864,返,返信,へんしん,reply (e-mail),258
+865,返,繰り返す,くりかえす,to repeat,258
+866,洗,洗う,あらう,to wash,259
+867,洗,手洗い,てあらい,hand wash,259
+868,洗,お手洗い,おてあらい,restroom / toilet,259
+869,洗,洗濯,せんたく,washing / laundry,259
+870,注,注意する,ちゅういする,to pay attention,260
+871,注,注文する,ちゅうもんする,to order,260
+872,注,注射,ちゅうしゃ,injection,260
+873,場,場所,ばしょ,place,261
+874,場,工場,こうじょう,factory,261
+875,場,広場,ひろば,square,261
+876,場,運動場,うんどうじょう,playground,261
+877,建,建てる,たてる,to build,262
+878,建,建物,たてもの,building,262
+879,建,建築,けんちく,construction / architecture,262
+880,物,物,もの,thing,263
+881,物,買い物,かいもの,shopping,263
+882,物,動物,どうぶつ,animal,263
+883,物,荷物,にもつ,baggage / luggage,263
+884,院,病院,びょういん,hospital,264
+885,院,入院する,にゅういんする,to be hospitalized,264
+886,院,大学院,だいがくいん,graduate school,264
+887,館,映画館,えいがかん,movie theater,265
+888,館,大使館,たいしかん,embassy,265
+889,館,旅館,りょかん,inn / Japanese inn,265
+890,館,美術館,びじゅつかん,art museum,265
+891,堂,食堂,しょくどう,dining room / cafeteria,266
+892,堂,講堂,こうどう,auditorium,266
+893,室,教室,きょうしつ,classroom,267
+894,室,地下室,ちかしつ,basement,267
+895,室,待合室,まちあいしつ,waiting room,267
+896,室,事務室,じむしつ,office,267
+897,工,工場,こうじょう,factory,268
+898,工,工事,こうじ,construction,268
+899,工,工業,こうぎょう,manufacturing / industry,268
+900,工,工作,こうさく,handicraft,268
+901,図,図,ず,figure / drawing,269
+902,図,地図,ちず,map,269
+903,図,図書館,としょかん,library,269
+904,図,合図,あいず,signal,269
+905,号,信号,しんごう,signal / traffic light,270
+906,号,電話番号,でんわばんごう,telephone number,270
+907,号,3号室,さんごうしつ,room No.3,270
+908,号,号令,ごうれい,command,270
+909,交,交通,こうつう,traffic,271
+910,交,交差点,こうさてん,crossing / intersection,271
+911,交,交番,こうばん,police box,271
+912,交,交代,こうたい,change / shift / relief,271
+913,通,通る,とおる,to go through / pass,272
+914,通,通う,かよう,to commute,272
+915,通,通学,つうがく,commute to school,272
+916,通,大通り,おおどおり,main street,272
+917,動,動く,うごく,to move,273
+918,動,運動,うんどう,exercise / sports,273
+919,動,自動車,じどうしゃ,car / automobile,273
+920,動,動物,どうぶつ,animal,273
+921,乗,乗る,のる,to get on / ride,274
+922,乗,タクシー乗り場,タクシーのりば,taxi stand,274
+923,乗,乗車券,じょうしゃけん,ticket to ride,274
+924,降,降りる,おりる,to get off,275
+925,降,(雨が)降る,ふる,(rain) to fall,275
+926,降,乗り降り,のりおり,get on and get off,275
+927,降,降水量,こうすいりょう,rainfall / precipitation,275
+928,運,運ぶ,はこぶ,to transport / carry,276
+929,運,運動,うんどう,exercise,276
+930,運,運がいい,うんがいい,lucky,276
+931,運,運賃,うんちん,fare / transport fee,276
+932,転,運転する,うんてんする,to drive,277
+933,転,自転車,じてんしゃ,bicycle,277
+934,転,回転,かいてん,rotation / rolling,277
+935,転,転勤,てんきん,job transfer,277
+936,帰,帰る,かえる,to return / go home,278
+937,帰,帰国する,きこくする,to return to one's country,278
+938,帰,お帰りなさい,おかえりなさい,welcome home,278
+939,発,出発する,しゅっぱつする,to leave / depart,279
+940,発,発見,はっけん,discovery,279
+941,発,発明,はつめい,invention,279
+942,発,発車,はっしゃ,departure of a vehicle,279
+943,着,着る,きる,to put on clothes / wear,280
+944,着,着く,つく,to arrive,280
+945,着,着物,きもの,kimono / clothes,280
+946,着,着信(メール),ちゃくしん,incoming e-mail / call,280
+947,漢,漢字,かんじ,Chinese character,281
+948,漢,漢方薬,かんぽうやく,Chinese herbal medicine,281
+949,字,字,じ,letter / character,282
+950,字,漢字,かんじ,Chinese character,282
+951,字,活字,かつじ,printed type,282
+952,字,習字,しゅうじ,calligraphy,282
+953,文,文,ぶん,sentence,283
+954,文,文学,ぶんがく,literature,283
+955,文,文字,もじ,character / letter,283
+956,文,注文する,ちゅうもんする,to order,283
+957,教,教える,おしえる,to teach,284
+958,教,教室,きょうしつ,classroom,284
+959,教,教科書,きょうかしょ,textbook,284
+960,教,教会,きょうかい,church,284
+961,勉,勉強する,べんきょうする,to study,285
+962,習,習う,ならう,to learn,286
+963,習,練習,れんしゅう,practice,286
+964,習,復習する,ふくしゅうする,to review,286
+965,習,習慣,しゅうかん,custom / habit,286
+966,英,英語,えいご,English language,287
+967,英,英国,えいこく,England / UK,287
+968,英,英雄,えいゆう,hero,287
+969,考,考える,かんがえる,to think,288
+970,考,考古学,こうこがく,archaeology,288
+971,考,参考書,さんこうしょ,reference book,288
+972,研,研究する,けんきゅうする,to do research,289
+973,究,研究者,けんきゅうしゃ,researcher,290
+974,究,研究室,けんきゅうしつ,laboratory / professor's office,290
+975,問,問い,とい,question,291
+976,問,問題,もんだい,question / problem,291
+977,問,質問する,しつもんする,to ask a question,291
+978,題,題名,だいめい,title,292
+979,題,問題,もんだい,question / problem,292
+980,題,宿題,しゅくだい,homework,292
+981,題,話題,わだい,topic,292
+982,試,試合,しあい,game / match,293
+983,試,試験,しけん,examination / test,293
+984,試,入試,にゅうし,entrance exam,293
+985,試,試す,ためす,to try / test,293
+986,験,試験,しけん,examination / test,294
+987,験,実験,じっけん,experiment,294
+988,験,経験,けいけん,experience,294
+989,験,受験する,じゅけんする,to take an examination,294
+990,質,質問する,しつもんする,to ask a question,295
+991,質,品質,ひんしつ,quality,295
+992,合,間に合う,まにあう,to be in time,296
+993,合,試合,しあい,game / match,296
+994,合,場合,ばあい,case / situation,296
+995,合,都合がいい,つごうがいい,convenient,296
+996,答,答える,こたえる,to answer,297
+997,答,答え,こたえ,answer,297
+998,答,解答,かいとう,answer / solution,297
+999,用,用事,ようじ,business / errand,298
+1000,用,利用する,りようする,to use,298
+1001,用,子ども用,こどもよう,for children,298
+1002,用,使用禁止,しようきんし,Do not use.,298
+1003,紙,紙,かみ,paper,299
+1004,紙,手紙,てがみ,letter,299
+1005,紙,コピー用紙,コピーようし,photocopying paper,299
+1006,紙,新聞紙,しんぶんし,a piece of newspaper,299
+1007,意,意味,いみ,meaning,300
+1008,意,注意する,ちゅういする,to pay attention,300
+1009,意,用意する,よういする,to prepare,300
+1010,意,意見,いけん,opinion,300
+1011,引,引く,ひく,to pull,301
+1012,引,引き出し,ひきだし,drawer / withdraw money,301
+1013,引,引力,いんりょく,gravity,301
+1014,開,開ける,あける,to open,302
+1015,開,開く,ひらく,to open,302
+1016,開,開店,かいてん,opening of shop,302
+1017,開,開始する,かいしする,to start,302
+1018,閉,閉める,しめる,to close,303
+1019,閉,閉じる,とじる,to close,303
+1020,閉,閉館する,へいかんする,to close facilities,303
+1021,閉,閉会式,へいかいしき,closing ceremony,303
+1022,去,去年,きょねん,last year,304
+1023,去,過去,かこ,the past,304
+1024,去,消去,しょうきょ,erasing / elimination,304
+1025,死,死ぬ,しぬ,to die,305
+1026,死,死者,ししゃ,the dead,305
+1027,死,急死,きゅうし,sudden death,305
+1028,死,病死,びょうし,die of disease,305
+1029,集,集める,あつめる,to collect,306
+1030,集,集まる,あつまる,to gather,306
+1031,集,文集,ぶんしゅう,miscellany / anthology,306
+1032,集,集合する,しゅうごうする,to get together,306
+1033,知,知る,しる,to know,307
+1034,知,知り合い,しりあい,acquaintance,307
+1035,知,通知,つうち,notice,307
+1036,知,知識,ちしき,knowledge,307
+1037,売,売る,うる,to sell,308
+1038,売,売店,ばいてん,stand / stall,308
+1039,売,売り場,うりば,counter / sales floor,308
+1040,売,自動販売機,じどうはんばいき,vending machine,308
+1041,説,説明する,せつめいする,to explain,309
+1042,説,小説,しょうせつ,novel,309
+1043,思,思う,おもう,to think,310
+1044,思,思い出す,おもいだす,to remember,310
+1045,思,思い出,おもいで,memory,310
+1046,思,思想,しそう,thought / idea,310

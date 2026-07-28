@@ -46,6 +46,18 @@
 
 }
 
+.kanjiNumber6{
+
+    font-size:18px;
+
+    color:var(--sub);
+
+    opacity:0.9;
+
+    margin-left:6px;
+
+}
+
 .wordSection{
 
     display:grid;

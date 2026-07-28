@@ -88,6 +88,8 @@ function showKanji(){
     document.getElementById("mainKanji");
     const kanjiNumberElement =
     document.getElementById("kanjiNumber");
+    const kanjiNumber6Element =
+    document.getElementById("kanjiNumber6");
     const wordHGRElement =
     document.getElementById("wordHGR");
     const wordStrokeElement =
@@ -105,6 +107,12 @@ function showKanji(){
     if(kanjiNumberElement){
         kanjiNumberElement.textContent =
         `#${currentEntry.no}`;
+    }
+
+    if(kanjiNumber6Element){
+        // show the sixth column number if present
+        kanjiNumber6Element.textContent =
+        currentEntry.group ? `#${currentEntry.group}` : "";
     }
 
     if(wordHGRElement){

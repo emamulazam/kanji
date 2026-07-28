@@ -58,7 +58,7 @@ function parseCSV(text){
         let row=parseLine(line);
 
 
-        if(row.length>=5){
+        if(row.length>=6){
 
 
             data.push({
@@ -71,7 +71,10 @@ function parseCSV(text){
 
                 hiragana:row[3],
 
-                meaning:row[4]
+                meaning:row[4],
+
+                // sixth column (numeric group / extra number)
+                group: row[5] === "" ? null : Number(row[5])
 
 
             });

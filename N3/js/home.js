@@ -143,8 +143,9 @@ function displayResults(data){
         );
         noElement.className =
         "resultNo";
-        noElement.textContent =
-        `No: ${item.no}`;
+        // show primary number and the sixth column number to its right
+        noElement.innerHTML =
+        `No: ${item.no} <span class="resultNo6">${item.group ? `#${item.group}` : ""}</span>`;
 
         const wordElement =
         document.createElement(

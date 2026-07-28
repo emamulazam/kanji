@@ -1,747 +1,747 @@
-1,駐,駐車,ちゅうしゃ,parking,1.1
-2,駐,駐車場,ちゅうしゃじょう,a parking lot,1.1
-3,無,無休,むきゅう,working without a holiday,1.1
-4,無,無料,むりょう,no charge,1.1
-5,無,無理な,むりな,unresonable,1.1
-6,無,無い,ない,"does not exist, do not have, be gone",1.1
-7,満,満車,まんしゃ,full (of cars),1.1
-8,満,満員,まんいん,full (of people),1.1
-9,満,不満な,ふまんな,dissatisfied,1.1
-10,向,方向,ほうこう,direction,1.1
-11,向,向こう,むこう,"over there, beyond",1.1
-12,向,向かう,むかう,go forward,1.1
-13,向,〇〇向き,〇〇むき,being suitable for 〇〇,1.1
-14,禁,禁止,きんし,prohibition,1.1
-15,関,関心,かんしん,interest,1.1
-16,関,関する,かんする,be related,1.1
-17,係,関係,かんけい,"relation, connection",1.1
-18,係,係,かかり,person in charge,1.1
-19,断,無断,むだん,without permission,1.1
-20,断,断水,だんすい,suspension of water supply,1.1
-21,断,断る,ことわる,refuse,1.1
-22,横,横断,おうだん,a crossing,1.2
-23,横,横断歩道,おうだんほどう,a pedestrian crossing ,1.2
-24,横,横,よこ,side,1.2
-25,押,押す,おす,push,1.2
-26,押,押さえる,おさえん,hold down,1.2
-27,押,押し入れ,おしいれ,a sliding-door closet ,1.2
-28,押,押しボタン式,おしボタンしき,a push-button ...,1.2
-29,式,入学式,にゅうがくしき,an entrance ceremony ,1.2
-30,式,数式,すうしき,a numerical formula ,1.2
-31,信,送信,そうしん,transmission ,1.2
-32,信,信じる,しんじる,believe ,1.2
-33,信,自信,じしん,confidence ,1.2
-34,信,信用,しんよう,trust ,1.2
-35,号,信号,しんごう,"a singnal, a traffic light",1.2
-36,号,～号車,～ごうしゃ,carriage number ...,1.2
-37,確,正確な,せいかくな,"correct, accurate",1.2
-38,確,確かな,たしかな,certain,1.2
-39,確,確かめる,たしかめる,"confirm, verify",1.2
-40,認,確認,かくにん,confirmation,1.2
-41,認,認める,みとめる,"admit, approve",1.2
-42,飛,飛行場,ひこうじょう,an airport,1.2
-43,飛,飛ぶ,とぶ,fly,1.2
-44,非,非常の,ひじょうの,emergency,1.3
-45,非,非常に,ひじょうに,extremely,1.3
-46,非,非常口,ひじょぐち,an emergency exit,1.3
-47,常,日常の,にちじょうの,"usual, everyday",1.3
-48,常,正常な,せいじょうな,normal,1.3
-49,階,～階,～かい,floor,1.3
-50,段,階段,かいだん,stairs,1.3
-51,箱,箱,はこ,a box,1.3
-52,箱,ごみ箱,ごみばこ,a trash box,1.3
-53,危,危険な,きけんな,danger,1.3
-54,危,危ない,あぶない,dangerous,1.3
-55,険,危険な,きけんな,danger,1.3
-56,捨,捨てる,すてる,throw away,1.3
-57,線,線,せん,a line,1.4
-58,線,～番線,～ばんせん,line (platform) number ...,1.4
-59,面,全面,ぜんめん,whole,1.4
-60,面,画面,がめん,a  screen,1.4
-61,面,〇〇方面,〇〇ほうめん,... area,1.4
-62,普,普通の,ふつうの,ordinary,1.4
-63,各,各駅,かくえき,every station,1.4
-64,各,各国,かっこく,each country,1.4
-65,各,各自,かくじ,"respctive, each person",1.4
-66,次,目次,もくじ,contents,1.4
-67,次,次回,じかい,the next time,1.4
-68,次,次,つぎ,the next,1.4
-69,快,快速,かいそく,a high speed,1.4
-70,速,高速道路,こうそくどうろ,a superhighway,1.4
-71,速,速度,そくど,speed,1.4
-72,速,速い,はやい,fast,1.4
-73,過,通過,つうか,"passage, transit",1.4
-74,過,過去,かこ,past,1.4
-75,過,過ぎる,すぎる,pass,1.4
-76,鉄,地下鉄,ちかてつ,a subway,1.4
-77,鉄,鉄道,てつどう,a railway,1.4
-78,鉄,鉄,てつ,steel,1.4
-79,指,指定,してい,"specification, designation",1.5
-80,指,指定席,していせき,a reserved seat,1.5
-81,指,指,ゆび,a finger,1.5
-82,指,指輪,ゆびわ,a (finger) ring,1.5
-83,定,定休日,ていきゅうび,a set/regular holiday,1.5
-84,定,安定,あんてい,stability,1.5
-85,席,席,せき,a seat,1.5
-86,席,出席,しゅっせき,attendance,1.5
-87,席,欠席,けっせき,absence,1.5
-88,由,自由な,じゆうな,free,1.5
-89,由,自由席,ひゆうせき,a non-reserved seat,1.5
-90,由,理由,りゆう,a reason,1.5
-91,番,番号,ばんごう,a number,1.5
-92,番,～番,～ばん,number ...,1.5
-93,番,～番線,～ばんせん,line (platform) number ...,1.5
-94,窓,窓,まど,a window,1.5
-95,窓,窓口,まどぐち,a (teller's) window,1.5
-96,側,両側,りょうがわ,both sides,1.5
-97,側,窓側,まどがわ,the window side,1.5
-98,側,右側,みぎがわ,the right side,1.5
-99,路,通路,つうろ,an aisle,1.5
-100,路,道路,どうろ,a road,1.5
-101,路,線路,せんろ,a railway track,1.5
-102,亭,停車,ていしゃ,stopping of a vehicel,1.6
-103,亭,バス亭,バスてい,a bus stop,1.6
-104,整,整理,せいり,arrangement,1.6
-105,整,整理券,せいりけん,"numbered ticket (issued at cinemas, etc. to indicate the order in which people may enter)",1.6
-106,券,駐車券,ちゅしゃけん,a parking ticket,1.6
-107,券,乗車券,じゅしゃけん,a (boarding) ticket,1.6
-108,券,回数券,かいすうけん,(book of) commuter ticket(s),1.6
-109,現,現金,げんきん,cash,1.6
-110,現,表現,ひょうげん,expression,1.6
-111,現,現れる,あらわれる,appear,1.6
-112,両,両親,りょうしん,parents,1.6
-113,両,～両,～りょう,... carson a train,1.6
-114,替,取り替える,とりかえる,exchange (one thing for another),1.6
-115,替,両替,りょうがえ,"money changing, exchange",1.6
-116,替,着替える,きがえる,change your clothes,1.6
-117,優,優先席,ゆうせんせき,a priority seat,1.6
-118,優,俳優,はいゆう,an actor,1.6
-119,優,優しい,やさしい,kind,1.6
-120,座,座席,ざせき,a seat,1.6
-121,座,正座,せいざ,sitting on the floor Japanese,1.6
-122,座,座る,すわる,sit,1.6
-123,降,降車口,こうしゃぐち,exit (for getting off),1.6
-124,降,以降,いこう,on and after ...,1.6
-125,降,降りる,おりる,get off,1.6
-126,降,降る,ふる,fall,1.6
-127,準,準備,じゅんび,preparation,2.1
-128,備,準備,じゅんび,preparation,2.1
-129,備,備える,そなえる,prepare,2.1
-130,営,営業,えいぎょう,business,2.1
-131,閉,開閉,かいへい,open and shut,2.1
-132,閉,閉まる,しまる,shut/close,2.1
-133,閉,閉める,しめる,shut/close,2.1
-134,案,案内,あんない,information,2.1
-135,案,案,あん,"a suggestion, proposal, plan",2.1
-136,内,家内,かない,wife,2.1
-137,内,以内,いない,within ...,2.1
-138,内,内側,うちがわ,inside,2.1
-139,内,国内,こくない,domestic,2.1
-140,予,予定,よてい,a plan/schedule,2.1
-141,予,予習,よしゅう,preparation (pre-study),2.1
-142,約,予約,よやく,an appointment/reservation,2.1
-143,約,約～,やく～,approximately,2.1
-144,煙,禁煙,きんえん,no smoking,2.2
-145,煙,煙,けむり,smoke,2.2
-146,当,本当,ほんとう,the truth,2.2
-147,当,当〇〇,とう〇〇,this 〇〇,2.2
-148,当,当たる,あたる,hit/win,2.2
-149,当,当たり前,あたりまえ,"natural, not surprising",2.2
-150,全,全部,ぜんぶ,all/whole,2.2
-151,全,全席,ぜんせき,all seats,2.2
-152,全,安全（な）,あんぜん（な）,safe,2.2
-153,客,客,きゃく,a customer,2.2
-154,客,お客様,きゃくさま,a customer,2.2
-155,様,様子,ようす,appearance/situation,2.2
-156,様,〇〇様,〇〇さま,"an honorific added to people's names, particularly in letters",2.2
-157,解,理解,りかい,understand,2.2
-158,解,解答,かいとう,an answer,2.2
-159,解,解説,かいせつ,an explanation,2.2
-160,解,分解,ぶんかい,take apart,2.2
-161,協,協力,きょうりょく,cooperation,2.2
-162,願,願う,ねがう,wish,2.2
-163,観,観光,かんこう,sightseeing,2.3
-164,観,観客,かんきゃく,"spectator, audience",2.3
-165,園,動物園,どうぶつえん,a zoo,2.3
-166,港,空港,くうこう,an airport,2.3
-167,港,〇〇港,〇〇こう,〇〇 port,2.3
-168,港,港,みなと,a port,2.3
-169,遊,遊園地,ゆうえんち,an amusement park,2.3
-170,遊,遊ぶ,あそぶ,play,2.3
-171,美,美術館,びじゅつかん,a museum,2.3
-172,美,美人,びじん,a beautiful woman,2.3
-173,美,美しい,うつくしい,beautiful,2.3
-174,術,美術,びじゅつ,(fine) art,2.3
-175,術,技術,ぎじゅつ,"technique, technology",2.3
-176,術,手術,しゅじゅつ,"surgery, operation",2.3
-177,神,神社,じんじゃ,a shrine,2.3
-178,神,神経質（な）,しんけいしつ（な）,nervous,2.3
-179,神,神様,かみさま,a god,2.3
-180,寺,〇〇寺,〇〇じ,〇〇 Temple,2.3
-181,寺,お寺,おてら,a temple,2.3
-182,役,市役所,しやくしょ,the city office,2.4
-183,役,役に立つ,やくにたつ,useful,2.4
-184,役,役員,やくいん,an officer/member,2.4
-185,郵,郵便,ゆうびん,mail,2.4
-186,局,郵便局,ゆうびんきょく,a post office,2.4
-187,局,薬局,やっきょく,a drug store,2.4
-188,交,交番,こうばん,a police box,2.4
-189,交,交通,こうつう,transport,2.4
-190,交,交換,こうかん,exchange,2.4
-191,差,差,さ,difference,2.4
-192,差,差し出す,さしだす,hand in,2.4
-193,差,差出人,さしだしにん,a sender,2.4
-194,点,交差点,こうさてん,an intersection,2.4
-195,点,点数,てんすう,score/points,2.4
-196,点,～点,～てん,... points,2.4
-197,橋,歩道橋,ほどうきょう,a foot bridge,2.4
-198,橋,橋,はし,a bridge,2.4
-199,公,公園,こうえん,a park,2.4
-200,受,受信,じゅしん,receive,2.5
-201,受,受験,じゅけん,an entrance examination,2.5
-202,受,受ける,うける,receive,2.5
-203,付,付ける,つける,put on,2.5
-204,付,片付ける,かたづける,tidy up,2.5
-205,付,受付,うけつけ,a reception,2.5
-206,付,付く,つく,stick to,2.5
-207,科,科学,かがく,science,2.5
-208,科,外科,げか,surgery department,2.5
-209,科,内科,ないか,internal medicine,2.5
-210,科,教科書,きょうかしょ,a textbook,2.5
-211,鼻,耳鼻科,じびか,ears and nose department,2.5
-212,鼻,鼻,はな,a nose,2.5
-213,婦,婦人,ふじん,a woman,2.5
-214,婦,産婦人科,さんふじんか,obstetrics and gynecology department,2.5
-215,婦,主婦,しゅふ,a housewife,2.5
-216,形,形式,けいしき,form / type,2.5
-217,形,図形,ずけい,a diagram,2.5
-218,形,整形外科,せいけいげか,orthopedics department,2.5
-219,形,人形,にんぎょう,a doll / puppet,2.5
-220,形,形,かたち,shape/form,2.5
-221,骨,骨折,こっせつ,a bone fracture,2.5
-222,骨,骨,ほね,a bone,2.5
-223,折,右折,うせつ,a right turn,2.5
-224,折,左折,させつ,a left turn,2.5
-225,折,折る,おる,break / fold (something),2.5
-226,折,折り紙,おりがみ,Japanese art of folding paper,2.5
-227,折,折れる,おれる,break,2.5
-228,困,困る,こまる,be in trouble,2.6
-229,消,消防,しょうぼう,fire fighting,2.6
-230,消,消える,きえる,"be extinguished, disappear",2.6
-231,消,消す,けす,extinguish,2.6
-232,消,消しゴム,けしゴム,an eraser,2.6
-233,防,予防,よぼう,"precaution, prevention",2.6
-234,防,防ぐ,ふせぐ,prevent,2.6
-235,救,救急車,きゅうきゅうしゃ,an ambulance,2.6
-236,救,救う,すくう,save,2.6
-237,警,警官,けいかん,a police officer,2.6
-238,察,警察,けいさつ,police,2.6
-239,察,警察署,けいさつしょ,a police station,2.6
-240,故,事故,じこ,an accident,2.6
-241,故,故障,こしょう,"break-down, failure",2.6
-242,故,故〇〇,こ〇〇,the late Mr.,2.6
-243,伝,伝言,でんごん,a message,2.6
-244,伝,伝える,つたえる,convey / communicate,2.6
-245,伝,手伝う,てつだう,help,2.6
-246,要,必要（な）,ひつよう（な）,necessary,3.1
-247,要,要る,いる,need,3.1
-248,要,重要（な）,じゅうよう（な）,important,3.1
-249,冷,冷房,れいぼう,air-conditioning,3.1
-250,冷,冷たい,つめたい,cold,3.1
-251,冷,冷やす,ひやす,cool,3.1
-252,冷,冷える,ひえる,become cold,3.1
-253,冷,冷める,さめる,cool down,3.1
-254,冷,冷ます,さます,cool something,3.1
-255,蔵,冷蔵庫,れいぞうこ,a refrigerator,3.1
-256,凍,冷凍庫,れいとうこ,a freezer,3.1
-257,凍,凍る,こおる,freeze,3.1
-258,庫,金庫,きんこ,a safe,3.1
-259,庫,車庫,しゃこ,a garage,3.1
-260,召,召し上がる,めしあがる,eat (polite form),3.1
-261,保,保存する,ほぞんする,preserve,3.1
-262,存,ご存じです,ごぞんじです,know (humble form),3.1
-263,存,存じません,ぞんじません,I do not know,3.1
-264,必,必要（な）,ひつよう（な）,necessary,3.1
-265,必,必死（に）,ひっし（に）,desperate(ly),3.1
-266,必,必ず,かならず,always / certainly,3.1
-267,費,費用,ひよう,"an expense, cost",3.2
-268,費,消費者,しょうひしゃ,consumers,3.2
-269,費,旅費,りょひ,travelling expenses,3.2
-270,費,会費,かいひ,a membership fee,3.2
-271,期,期間,きかん,a period of time,3.2
-272,期,定期券,ていきけん,a commuter pass,3.2
-273,期,長期,ちょうき,a long period,3.2
-274,期,短期,たんき,a short period,3.2
-275,限,期限,きげん,a time limit,3.2
-276,限,限度,げんど,a limit,3.2
-277,限,限る,かぎる,"limit, restrict",3.2
-278,限,限定,げんてい,limitation,3.2
-279,製,〇〇製,〇〇せい,made in/of 〇〇,3.2
-280,製,製品,せいひん,a product,3.2
-281,造,製造,せいぞう,manufacture,3.2
-282,造,造る,つくる,make,3.2
-283,賞,賞,しょう,a prize,3.2
-284,賞,賞味期限,しょうみきげん,Best before,3.2
-285,賞,賞金,しょうきん,prize money,3.2
-286,賞,賞品,しょうひん,a prize,3.2
-287,法,方法,ほうほう,a method / way,3.2
-288,法,文法,ぶんぽう,grammar,3.2
-289,温,温度,おんど,temperature,3.2
-290,温,気温,きおん,temperature,3.2
-291,温,温かい,あたたかい,warm,3.2
-292,温,常温,じょうおん,normal temperature,3.2
-293,販,販売,はんばい,sell,3.3
-294,販,自動販売機,じどうはんばいき,a vending machine,3.3
-295,機,飛行機,ひこうき,an airplane,3.3
-296,機,機械,きかい,a machine,3.3
-297,機,機会,きかい,an opportunity,3.3
-298,増,増加,ぞうか,an increase,3.3
-299,増,増える,ふえる,increase,3.3
-300,増,増やす,ふやす,"increase, add",3.3
-301,減,減少,げんしょう,a decrease,3.3
-302,減,減る,へる,"decrease, reduce",3.3
-303,減,減らす,へらす,decrease,3.3
-304,量,量,りょう,quantity,3.3
-305,量,数量,すうりょう,amount,3.3
-306,量,増量,ぞうりょう,increase the amount,3.3
-307,量,減量,げんりょう,a loss in quantity (weight),3.3
-308,氷,氷,こおり,ice,3.3
-309,返,返事,へんじ,a reply,3.3
-310,返,返却,へんきゃく,return,3.3
-311,返,返す,かえす,return (something),3.3
-312,湯,（お）湯,（お）ゆ,hot water,3.3
-313,材,材料,ざいりょう,"ingredients, materials",3.4
-314,材,教材,きょうざい,teaching material,3.4
-315,卵,卵,たまご,an egg,3.4
-316,卵,卵焼き,たまごやき,a Japanese omlet,3.4
-317,乳,牛乳,ぎゅうにゅう,milk,3.4
-318,粉,粉,こな,"powder, flour",3.4
-319,粉,小麦粉,こむぎこ,wheat flour,3.4
-320,袋,袋,ふくろ,a bag,3.4
-321,袋,紙袋,かみぶくろ,a paper bag,3.4
-322,袋,ごみ袋,ごみぶくろ,a garbage bag,3.4
-323,袋,手袋,てぶくろ,gloves,3.4
-324,袋,足袋,たび,tabi (traditional Japanese socks worn with a kimono),3.4
-325,混,混雑,こんざつ,congestion,3.4
-326,混,混ぜる,まぜる,be mixed,3.4
-327,焼,焼く,やく,"roast, grill",3.4
-328,焼,焼ける,やける,be burnt/baked,3.4
-329,表,表,ひょう,a table (in written documents),3.4
-330,表,表面,ひょうめん,a surface,3.4
-331,表,発表,はっぴょう,an announcement,3.4
-332,表,代表,だいひょう,a representative,3.4
-333,表,表,おもて,"a surface, face",3.4
-334,表,表す,あらわす,"show, express",3.4
-335,裏,裏,うら,"reverse, back",3.4
-336,裏,裏返す,うらがえす,turnover,3.4
-337,留,留学,りゅうがく,study abroad,3.5
-338,留,留守番,るすばん,stay at home,3.5
-339,留,保留,ほりゅう,reservation / suspension,3.5
-340,留,書留,かきとめ,registration (registered mail),3.5
-341,守,守備,しゅび,defence,3.5
-342,守,留守,るす,absence,3.5
-343,守,守る,まもる,protect,3.5
-344,濃,濃い,こい,"concentrate, dark (color)",3.5
-345,薄,薄い,うすい,"thin (material), light (color), weak (drink)",3.5
-346,部,部分,ぶぶん,part,3.5
-347,部,学部,がくぶ,faculty,3.5
-348,部,部長,ぶちょう,department head / manager,3.5
-349,部,部屋,へや,a room,3.5
-350,数,数字,すうじ,number,3.5
-351,数,数学,すうがく,mathematics,3.5
-352,数,数,かず,a number,3.5
-353,数,数える,かぞえる,count,3.5
-354,件,件名,けんめい,subject,3.5
-355,件,事件,じけん,an incident,3.5
-356,件,用件,ようけん,a business/matter,3.5
-357,再,再入国,さいにゅうこく,re-enter a country,3.5
-358,再,再ダイヤル,さいダイヤル,redial,3.5
-359,再,再生,さいせい,"regenerate, recycle",3.5
-360,再,再来週,さらいしゅう,the week after next,3.5
-361,接,接続,せつぞく,connect,3.6
-362,接,面接,めんせつ,interview,3.6
-363,続,接続,せつぞく,connect,3.6
-364,続,続く,つづく,continue,3.6
-365,続,続ける,つづける,continue,3.6
-366,示,表示,ひょうじ,"indication, expression",3.6
-367,示,指示,しじ,"a direction, instruction",3.6
-368,示,示す,しめす,"show, point out",3.6
-369,戻,戻る,もどる,return,3.6
-370,戻,戻す,もどす,"return, put back",3.6
-371,完,完了,かんりょう,completion,3.6
-372,完,完全（な）,かんぜん（な）,"perfect, complete",3.6
-373,了,了解,りょうかい,"understand, agree",3.6
-374,了,終了,しゅうりょう,"end, expiration",3.6
-375,登,登録,とうろく,registration,3.6
-376,登,登山,とざん,mountain climbing,3.6
-377,登,登る,のぼる,climb,3.6
-378,録,記録,きろく,a record,3.6
-379,録,録音,ろくおん,record (sound),3.6
-380,録,録画,ろくが,record (video),3.6
-381,砂,砂糖,さとう,sugar,4.1
-382,砂,砂,すな,sand,4.1
-383,塩,食塩,しょくえん,table salt,4.1
-384,塩,塩,しお,salt,4.1
-385,油,しょう油,しょうゆ,soy sauce,4.1
-386,油,石油,せきゆ,oil (petroleum),4.1
-387,油,灯油,とうゆ,kerosene,4.1
-388,油,油,あぶら,oil,4.1
-389,緑,緑茶,りょくちゃ,green tea,4.1
-390,緑,緑（色）,みどり（いろ）,green,4.1
-391,紅,紅茶,こうちゃ,tea,4.1
-392,紅,口紅,くちべに,lipstick,4.1
-393,冊,～冊,～さつ,counter for books,4.1
-394,冊,冊数,さっすう,the number of copies,4.1
-395,個,～個,～こ,counter of general objects,4.1
-396,個,個数,こすう,the number of items,4.1
-397,個,個人,こじん,individual (person),4.1
-398,個,団体,だんたい,a group,4.1
-399,枚,～枚,～まい,counter for flat objects,4.1
-400,枚,枚数,まいすう,the number of sheets/copies,4.1
-401,告,広告,こうこく,an advertisement,4.2
-402,利,便利（な）,べんり（な）,convenient,4.2
-403,利,利用,りよう,use,4.2
-404,割,割る,わる,break,4.2
-405,割,割れる,われる,crack/cleave,4.2
-406,割,割合,わりあい,"a ratio, a percentage",4.2
-407,割,割引,わりびき,a discount,4.2
-408,倍,～倍,～ばい,... times (quantity - e.g. twice as many),4.2
-409,倍,倍,ばい,＝２倍,4.2
-410,値,値段,ねだん,a price,4.2
-411,値,値上げ,ねあげ,a price increase,4.2
-412,値,値下げ,ねさげ,a price reduction,4.2
-413,商,商品,しょうひん,goods,4.2
-414,商,商店,しょうてん,a shop,4.2
-415,支,支店,してん,a branch,4.2
-416,支,支社,ししゃ,a branch office,4.2
-417,支,本店,ほんてん,the main branch of a store,4.2
-418,支,本社,ほんしゃ,the head office,4.2
-419,払,払う,はらう,pay,4.2
-420,払,支払い,しはらい,a payment,4.2
-421,米,米国,べいこく,the United States of America,4.3
-422,米,米,こめ,rice,4.3
-423,級,高級,こうきゅう,high class/grade,4.3
-424,級,上級,じょうきゅう,advanced level,4.3
-425,級,中級,ちゅうきゅう,intermediate level,4.3
-426,残,残業,ざんぎょう,overtime work,4.3
-427,残,残る,ののこる,remain,4.3
-428,残,残り,のこり,the remainder,4.3
-429,残,残す,のこす,"leave, leave behind",4.3
-430,型,大型,おおがた,"large, jumbo",4.3
-431,型,新型,しんがた,new-model,4.3
-432,型,小型,こがた,small-sized,4.3
-433,税,消費税,しょうひぜい,consumption tax,4.3
-434,税,税金,ぜいきん,a tax,4.3
-435,込,込む,こむ,congest/crowd,4.3
-436,込,振り込む,ふりこむ,transfer money to a person's account,4.3
-437,込,税込,ぜいこみ,tax included,4.3
-438,価,価格,かかく,a price,4.3
-439,価,定価,ていか,a fixed price,4.3
-440,格,合格,ごうかく,pass an exam,4.3
-441,格,格安,かくやす,a bargain,4.3
-442,申,申し込む,もうしこむ,apply,4.4
-443,申,申込書,もうしこみしょ,an application form,4.4
-444,申,申告,しんこく,a declaration,4.4
-445,申,申請,しんせい,application,4.4
-446,申,申す,もうす,say (humble form),4.4
-447,申,申し上げる,もうしあげる,say (very humble form),4.4
-448,記,記入,きにゅう,entry,4.4
-449,記,日記,にっき,a diary / journal,4.4
-450,記,記号,きごう,"a sign, a symbol",4.4
-451,記,記事,きじ,an article,4.4
-452,例,例,れい,an example,4.4
-453,例,例えば,たとえば,for example,4.4
-454,齢,年齢,ねんれい,age,4.4
-455,齢,高齢,こうれい,old age,4.4
-456,歳,～歳,～さい,... years old,4.4
-457,歳,二十歳,にじゅっさい,20 years old,4.4
-458,歳,二十歳,はたち,20 years old,4.4
-459,性,性別,せいべつ,sex/gender,4.4
-460,性,性格,せいかく,personality,4.4
-461,性,女性,じょせい,woman,4.4
-462,性,男性,だんせい,man,4.4
-463,連,連休,れんきゅう,a holiday,4.4
-464,連,連れて行く,つれていく,take someone to ...,4.4
-465,連,連れて来る,つれてくる,bring someone to ...,4.4
-466,絡,連絡,れんらく,contact/connection,4.4
-467,届,届ける,とどける,deliver,4.5
-468,届,届く,とどく,arrive (mail),4.5
-469,宅,自宅,じたく,one's house / home,4.5
-470,宅,お宅,おたく,house/home (respectful form),4.5
-471,宅,宅配,たくはい,deliver to someone's house,4.5
-472,配,配達,はいたつ,delivery,4.5
-473,配,配送料,はいそうりょう,a shipping charge,4.5
-474,配,心配,しんぱい,anxiety/worry,4.5
-475,配,配る,くばる,distribute,4.5
-476,希,希望,きぼう,hope,4.5
-477,望,失望,しつぼう,despair,4.5
-478,望,望む,のぞむ,"want, hope for",4.5
-479,荷,入荷,にゅうか,receipt (of goods),4.5
-480,荷,出荷,しゅっか,shipment,4.5
-481,荷,荷物,にもつ,luggage,4.5
-482,荷,手荷物,てにもつ,hand luggage,4.5
-483,換,交換,こうかん,exchange,4.5
-484,換,代金引換,だいきんひきかえ,cash on delivery,4.5
-485,換,乗り換え,のりかえ,changing trains,4.5
-486,換,代引き,だいびき,cash on delivery,4.5
-487,額,金額,きんがく,an amount/sum (of money),4.5
-488,額,半額,はんがく,half price,4.5
-489,在,不在,ふざい,absence,4.6
-490,在,現在,げんざい,present (time),4.6
-491,取,取る,とる,take,4.6
-492,取,受け取る,うけとる,"receive, take",4.6
-493,取,受取人,うけとりにん,a recipient,4.6
-494,預,預金,よきん,a money deposit,4.6
-495,預,預ける,あずける,entrust,4.6
-496,衣,衣類,いるい,clothing,4.6
-497,衣,衣服,いふく,clothes,4.6
-498,参,参加,さんか,participate,4.6
-499,参,参考書,さんこうしょ,a reference book,4.6
-500,参,参る,まいる,go / come (humble form),4.6
-501,達,上達,じょうたつ,make progress,4.6
-502,達,速達,そくたつ,a special delivery,4.6
-503,達,友達,ともだち,a friend,4.6
-504,勤,通勤,つうきん,commuting to work,4.6
-505,勤,勤める,つとめる,work / be employed,4.6
-506,帯,携帯（電話）,けいたい（でんわ）,a cell phone / mobile phone,4.6
-507,帯,時間帯,じかんたい,"a time zone, a time slot",4.6
-508,帯,帯,おび,a belt/sash,4.6
-509,礼,お礼,おれい,thanks,5.1
-510,伺,伺う,うかがう,"visit, ask (humble form)",5.1
-511,遅,遅刻,ちこく,tardiness,5.1
-512,遅,遅い,おそい,slow,5.1
-513,遅,遅れる,おくれる,be late,5.1
-514,失,失礼（な）,しつれい（な）,rudeness,5.1
-515,失,失礼する,しつれいする,be excused,5.1
-516,失,失敗,しっぱい,"failure, mistake",5.1
-517,汗,汗,あせ,"perspiration, sweat",5.1
-518,汗,汗をかく,あせをかく,sweat,5.1
-519,念,残念（な）,ざんねん（な）,"regret, disappointment",5.1
-520,念,記念,きねん,commemoration,5.1
-521,涙,涙,なみだ,tear(s),5.1
-522,涙,涙を流す,なみだをながす,weep,5.1
-523,笑,笑う,わらう,laugh / smile,5.1
-524,笑,笑い,わらい,laughter,5.1
-525,笑,笑顔,えがお,smile / smiling face,5.1
-526,調,調子,ちょうし,condition,5.2
-527,調,強調,きょうちょう,"emphasis, stress",5.2
-528,調,調べる,しらべる,"look up something, investigate",5.2
-529,査,調査,ちょうさ,an investigation/inquiry,5.2
-530,移,移動,いどう,move / transfer,5.2
-531,移,移る,うつる,move / shift,5.2
-532,移,移す,うつす,move / shift (something),5.2
-533,難,困難（な）,こんなん（な）,difficulty,5.2
-534,難,難問,なんもん,a difficult problem,5.2
-535,難,難しい,むずかしい,difficult,5.2
-536,簡,簡単（な）,かんたん（な）,easy,5.2
-537,単,単語,たんご,vocabulary,5.2
-538,単,単位,たんい,"a unit, credit",5.2
-539,感,感じる,かんじる,feel,5.2
-540,感,感動,かんどう,inspiration,5.2
-541,想,感想,かんそう,"impressions, thoughts",5.2
-542,想,予想,よそう,"anticipation, forecast",5.2
-543,練,練習,れんしゅう,practice,5.3
-544,最,最近,さいきん,recently,5.3
-545,最,最初,さいしょ,first / beginning,5.3
-546,最,最後,さいご,last / end,5.3
-547,最,最も,もっとも,most,5.3
-548,適,適当（な）,てきとう（な）,correct / appropriate,5.3
-549,適,快適（な）,かいてき（な）,comfortable,5.3
-550,選,選挙,せんきょ,an election,5.3
-551,選,選手,せんしゅ,"a player, an athlete",5.3
-552,選,選ぶ,えらぶ,choose,5.3
-553,違,違う,ちがう,"different, wrong",5.3
-554,違,間違い,まちがい,a mistake,5.3
-555,違,間違う,まちがう,make a mistake,5.3
-556,違,間違える,まちがえる,make a mistake,5.3
-557,直,直線,ちょくせん,a straight line,5.3
-558,直,直接,ちょくせつ,direct,5.3
-559,直,直る,なおる,be repaired,5.3
-560,直,直す,なおす,fix,5.3
-561,復,復習,ふくしゅう,review,5.3
-562,復,往復,おうふく,a round trip,5.3
-563,復,回復,かいふく,recovery/recuperation,5.3
-564,辞,辞書,じしょ,a dictionary,5.3
-565,辞,辞める,やめる,"resign, retire",5.3
-566,宿,宿題,しゅくだい,a homework,5.3
-567,宿,下宿,げしゅく,lodgings,5.3
-568,宿,宿,やど,"an inn, a hotel",5.3
-569,昨,昨日,さくじつ,yesterday,5.4
-570,昨,昨日,きのう,yesterday,5.4
-571,昨,昨夜,さくや,last night,5.4
-572,昨,昨年,さくねん,last year,5.4
-573,君,〇〇君,〇〇くん,honorific appended to names of males younger than oneself,5.4
-574,君,君,きみ,you,5.4
-575,結,結構（な）,けっこう（な）,"splendid, nice",5.4
-576,結,「いいえ、結構です」,「いいえ、けっこうです」,"No, thank you.",5.4
-577,結,結局,けっきょく,after all,5.4
-578,結,結ぶ,むすぶ,tie / connect / conclude,5.4
-579,婚,結婚,けっこん,a marriage,5.4
-580,婚,新婚旅行,しんこんりょこう,a honeymoon,5.4
-581,婚,婚約,こんやく,an engagement,5.4
-582,祝,祝日,しゅくじつ,a holiday / festival day,5.4
-583,祝,祝う,いわう,celebrate/congratulate,5.4
-584,祝,お祝い,おいわい,celebration/congratulation,5.4
-585,曲,曲,きょく,a piece of music,5.4
-586,曲,曲線,きょくせん,a curve,5.4
-587,曲,曲がる,まがる,"bend, turn a corner",5.4
-588,曲,曲げる,まげる,bend,5.4
-589,奥,奥さん,おくさん,another person's wife,5.4
-590,奥,奥,おく,inmost,5.4
-591,寝,寝る,ねる,sleep,5.4
-592,寝,寝坊,ねぼう,"late riser, sleepyhead",5.4
-593,寝,昼寝,ひるね,a nap,5.4
-594,痛,頭痛,ずつう,a headache,5.5
-595,痛,腹痛,ふくつう,stomach ache,5.5
-596,痛,痛い,いたい,"sore, painful",5.5
-597,熱,熱,ねつ,"heat, fever",5.5
-598,熱,熱心（な）,ねっしん（な）,"enthusiasm, zeal",5.5
-599,熱,熱い,あつい,hot,5.5
-600,虫,虫,むし,an insect,5.5
-601,歯,歯科,しか,dentistry,5.5
-602,歯,歯,は,teeth,5.5
-603,歯,歯医者,はいしゃ,a dentist,5.5
-604,歯,虫歯,むしば,a decayed tooth,5.5
-605,治,政治,せいじ,"politics, government",5.5
-606,治,治療,ちりょう,a treatment,5.5
-607,治,治る,なおる,heal,5.5
-608,治,治す,なおす,cure,5.5
-609,汚,汚い,きたない,dirty,5.5
-610,汚,汚れる,よごれる,become dirty,5.5
-611,並,並ぶ,ならぶ,stand in a line,5.5
-612,並,並べる,ならべる,"line up, set up",5.5
-613,並,歯並び,はならび,the alignment of your teeth,5.5
-614,他,他の,たの,other,5.5
-615,他,その他,そのた,other,5.5
-616,身,身長,しんちょう,height,5.6
-617,身,独身,どくしん,"single, unmarried",5.6
-618,身,身分,みぶん,social status,5.6
-619,身,刺身,さしみ,sashimi (sliced raw fish),5.6
-620,酒,日本酒,にほんしゅ,sake,5.6
-621,酒,料理酒,りょうりしゅ,cooking sake,5.6
-622,酒,お酒,おさけ,"alcohol, liquor",5.6
-623,酒,酒屋,さかや,a liquor store,5.6
-624,吸,呼吸,こきゅう,"breathing, respiration",5.6
-625,吸,吸う,すう,breathe / inhale,5.6
-626,欲,食欲,しょくよく,appetite,5.6
-627,欲,意欲,いよく,"a will, eagerness, motivation",5.6
-628,欲,欲しい,ほしい,want,5.6
-629,眠,睡眠,すいみん,sleep,5.6
-630,眠,眠い,ねむい,sleepy,5.6
-631,眠,眠る,ねむる,sleep,5.6
-632,疲,疲れる,つかれる,"get tired, exhaust",5.6
-633,息,息,いき,a breath,5.6
-634,息,息切れ,いきぎれ,be short of breath,5.6
-635,息,息子,むすこ,a son,5.6
-636,呼,呼吸,こきゅう,"breathing, respiration",5.6
-637,呼,呼ぶ,よぶ,call,5.6
-638,報,予報,よほう,a forecast,6.1
-639,報,報告,ほうこく,a report,6.1
-640,晴,晴れる,はれる,be sunny,6.1
-641,晴,晴れ,はれ,fine weather,6.1
-642,雲,雲,くも,clouds,6.1
-643,吹,吹く,ふく,blow,6.1
-644,暖,暖房,だんぼう,a heater,6.1
-645,暖,暖かい,あたたかい,warm,6.1
-646,雪,雪,ゆき,snow,6.1
-647,震,地震,じしん,an earthquake,6.1
-648,震,震度,しんど,seismic intensity,6.1
-649,波,電波,でんぱ,electromagnetic wave,6.1
-650,波,波,なみ,a wave,6.1
-651,波,津波,つなみ,tsunami,6.1
-652,求,要求,ようきゅう,"a demand, request",6.2
-653,求,請求書,せいきゅうしょ,"a bill, invoice",6.2
-654,求,求人,きゅうじん,‘Help Wanted’,6.2
-655,求,求める,もとめる,"demand, request",6.2
-656,募,募集,ぼしゅう,recruitment,6.2
-657,職,職場,しょくば,a work place,6.2
-658,職,転職,てんしょく,change your job,6.2
-659,職,職業,しょくぎょう,an occupation/profession,6.2
-660,職,職員,しょくいん,employees,6.2
-661,容,美容院,びよういん,a hairdresser,6.2
-662,容,内容,ないよう,contents/substance,6.2
-663,技,技術,ぎじゅつ,"technique, technology",6.2
-664,技,技術者,ぎじゅつしゃ,a technician,6.2
-665,般,一般,いっぱん,"general, average",6.2
-666,般,一般に,いっぱんに,in general,6.2
-667,務,事務,じむ,office work,6.2
-668,務,事務所,じむしょ,an office,6.2
-669,務,公務員,こうむいん,"a civil servant, government employee",6.2
-670,務,税務署,ぜいむしょ,tax office,6.2
-671,課,第１課,だいいっか,Lesson one,6.2
-672,課,課長,かちょう,a section chief,6.2
-673,球,地球,ちきゅう,the earth,6.3
-674,球,電球,でんきゅう,a light bulb,6.3
-675,球,野球,やきゅう,baseball,6.3
-676,決,決して,けっして,by no means,6.3
-677,決,決める,きめる,decide (something),6.3
-678,決,決定,けってい,a decision,6.3
-679,決,決まる,きまる,be decided,6.3
-680,勝,優勝,ゆうしょう,"a victory, championship",6.3
-681,勝,勝つ,かつ,win,6.3
-682,勝,決勝,けっしょう,final game,6.3
-683,対,1対2,1たい2,(a score of) one to two,6.3
-684,対,反対,はんたい,opposite,6.3
-685,流,流れる,ながれる,flow,6.3
-686,流,流す,ながす,"let (water, etc.) flow",6.3
-687,負,勝負,しょうぶ,"a match, contest, game",6.3
-688,負,負ける,まける,lose,6.3
-689,投,投手,とうしゅ,(baseball) pitcher,6.3
-690,投,投げる,なげる,throw,6.3
-691,果,結果,けっか,a result,6.3
-692,果,果物,くだもの,fruit,6.3
-693,戦,戦後,せんご,after the war,6.4
-694,戦,戦う,たたかう,fight,6.4
-695,戦,戦争,せんそう,war,6.4
-696,経,経験,けいけん,an experience,6.4
-697,経,経営,けいえい,management,6.4
-698,済,経済,けいざい,economy,6.4
-699,済,済む,すむ,finish,6.4
-700,成,成長,せいちょう,growth,6.4
-701,成,完成,かんせい,completion,6.4
-702,貿,貿易,ぼうえき,trade,6.4
-703,易,貿易,ぼうえき,trade,6.4
-704,易,易しい,やさしい,"easy, plain, simple",6.4
-705,輸,輸出,ゆしゅつ,export,6.4
-706,輸,輸入,ゆにゅう,import,6.4
-707,輸,輸送,ゆそう,transport,6.4
-708,相,相談,そうだん,consultation,6.4
-709,相,相手,あいて,an opponent/competitor,6.4
-710,相,首相,しゅしょう,prime minister,6.4
-711,化,文化,ぶんか,culture,6.5
-712,化,〇〇化,〇〇か,-ize (change something into something else),6.5
-713,化,化学,かがく,chemistry,6.5
-714,化,化粧,けしょう,makeup,6.5
-715,比,比べる,くらべる,compare,6.5
-716,原,原料,げんりょう,(raw) material,6.5
-717,因,原因,げんいん,a cause,6.5
-718,際,国際（の）,こくさい（の）,international,6.5
-719,際,交際,こうさい,association/dealings (with),6.5
-720,議,会議,かいぎ,a meeting,6.5
-721,議,議員,ぎいん,a member of an assembly,6.5
-722,活,生活,せいかつ,life / livelihood,6.5
-723,活,活動,かつどう,activity,6.5
-724,変,大変（な）,たいへん（な）,"very, serious",6.5
-725,変,変化,へんか,a change,6.5
-726,変,変わる,かわる,change,6.5
-727,変,変える,かえる,change (something),6.5
-728,政,政治,せいじ,politics,6.6
-729,政,政治家,せいじか,a politician,6.6
-730,府,政府,せいふ,"an government, administration",6.6
-731,府,都道府県,とどうふけん,prefectures,6.6
-732,改,改正,かいせい,an amendment,6.6
-733,改,改札口,かいさつぐち,a ticket gate,6.6
-734,改,改める,あらためる,① change ② check,6.6
-735,否,否定,ひてい,negation,6.6
-736,的,否定的な,ひていてきな,negative,6.6
-737,的,目的,もくてき,"an aim, purpose",6.6
-738,的,国際的な,こくさいてきな,international,6.6
-739,的,個人的な,こじんてきな,personal,6.6
-740,実,実際に,じっさいに,"practice, actual conditions",6.6
-741,実,実は,じつは,to tell the truth,6.6
-742,実,実験,じっけん,an experiment,6.6
-743,欠,欠点,けってん,a shortcoming,6.6
-744,欠,欠席,けっせき,absence,6.6
-745,欠,欠ける,かける,"chip, lack",6.6
-746,専,専門,せんもん,specialty,6.6
-747,専,専門家,せんもんか,an expert,6.6
+1,駐,駐車,ちゅうしゃ,parking,1
+2,駐,駐車場,ちゅうしゃじょう,a parking lot,1
+3,無,無休,むきゅう,working without a holiday,2
+4,無,無料,むりょう,no charge,2
+5,無,無理な,むりな,unresonable,2
+6,無,無い,ない,"does not exist, do not have, be gone",2
+7,満,満車,まんしゃ,full (of cars),3
+8,満,満員,まんいん,full (of people),3
+9,満,不満な,ふまんな,dissatisfied,3
+10,向,方向,ほうこう,direction,4
+11,向,向こう,むこう,"over there, beyond",4
+12,向,向かう,むかう,go forward,4
+13,向,〇〇向き,〇〇むき,being suitable for 〇〇,4
+14,禁,禁止,きんし,prohibition,5
+15,関,関心,かんしん,interest,6
+16,関,関する,かんする,be related,6
+17,係,関係,かんけい,"relation, connection",7
+18,係,係,かかり,person in charge,7
+19,断,無断,むだん,without permission,8
+20,断,断水,だんすい,suspension of water supply,8
+21,断,断る,ことわる,refuse,8
+22,横,横断,おうだん,a crossing,9
+23,横,横断歩道,おうだんほどう,a pedestrian crossing ,9
+24,横,横,よこ,side,9
+25,押,押す,おす,push,10
+26,押,押さえる,おさえん,hold down,10
+27,押,押し入れ,おしいれ,a sliding-door closet ,10
+28,押,押しボタン式,おしボタンしき,a push-button ...,10
+29,式,入学式,にゅうがくしき,an entrance ceremony ,11
+30,式,数式,すうしき,a numerical formula ,11
+31,信,送信,そうしん,transmission ,12
+32,信,信じる,しんじる,believe ,12
+33,信,自信,じしん,confidence ,12
+34,信,信用,しんよう,trust ,12
+35,号,信号,しんごう,"a singnal, a traffic light",13
+36,号,～号車,～ごうしゃ,carriage number ...,13
+37,確,正確な,せいかくな,"correct, accurate",14
+38,確,確かな,たしかな,certain,14
+39,確,確かめる,たしかめる,"confirm, verify",14
+40,認,確認,かくにん,confirmation,15
+41,認,認める,みとめる,"admit, approve",15
+42,飛,飛行場,ひこうじょう,an airport,16
+43,飛,飛ぶ,とぶ,fly,16
+44,非,非常の,ひじょうの,emergency,17
+45,非,非常に,ひじょうに,extremely,17
+46,非,非常口,ひじょぐち,an emergency exit,17
+47,常,日常の,にちじょうの,"usual, everyday",18
+48,常,正常な,せいじょうな,normal,18
+49,階,～階,～かい,floor,19
+50,段,階段,かいだん,stairs,20
+51,箱,箱,はこ,a box,21
+52,箱,ごみ箱,ごみばこ,a trash box,21
+53,危,危険な,きけんな,danger,22
+54,危,危ない,あぶない,dangerous,22
+55,険,危険な,きけんな,danger,23
+56,捨,捨てる,すてる,throw away,24
+57,線,線,せん,a line,25
+58,線,～番線,～ばんせん,line (platform) number ...,25
+59,面,全面,ぜんめん,whole,26
+60,面,画面,がめん,a  screen,26
+61,面,〇〇方面,〇〇ほうめん,... area,26
+62,普,普通の,ふつうの,ordinary,27
+63,各,各駅,かくえき,every station,28
+64,各,各国,かっこく,each country,28
+65,各,各自,かくじ,"respctive, each person",28
+66,次,目次,もくじ,contents,29
+67,次,次回,じかい,the next time,29
+68,次,次,つぎ,the next,29
+69,快,快速,かいそく,a high speed,30
+70,速,高速道路,こうそくどうろ,a superhighway,31
+71,速,速度,そくど,speed,31
+72,速,速い,はやい,fast,31
+73,過,通過,つうか,"passage, transit",32
+74,過,過去,かこ,past,32
+75,過,過ぎる,すぎる,pass,32
+76,鉄,地下鉄,ちかてつ,a subway,33
+77,鉄,鉄道,てつどう,a railway,33
+78,鉄,鉄,てつ,steel,33
+79,指,指定,してい,"specification, designation",34
+80,指,指定席,していせき,a reserved seat,34
+81,指,指,ゆび,a finger,34
+82,指,指輪,ゆびわ,a (finger) ring,34
+83,定,定休日,ていきゅうび,a set/regular holiday,35
+84,定,安定,あんてい,stability,35
+85,席,席,せき,a seat,36
+86,席,出席,しゅっせき,attendance,36
+87,席,欠席,けっせき,absence,36
+88,由,自由な,じゆうな,free,37
+89,由,自由席,ひゆうせき,a non-reserved seat,37
+90,由,理由,りゆう,a reason,37
+91,番,番号,ばんごう,a number,38
+92,番,～番,～ばん,number ...,38
+93,番,～番線,～ばんせん,line (platform) number ...,38
+94,窓,窓,まど,a window,39
+95,窓,窓口,まどぐち,a (teller's) window,39
+96,側,両側,りょうがわ,both sides,40
+97,側,窓側,まどがわ,the window side,40
+98,側,右側,みぎがわ,the right side,40
+99,路,通路,つうろ,an aisle,41
+100,路,道路,どうろ,a road,41
+101,路,線路,せんろ,a railway track,41
+102,亭,停車,ていしゃ,stopping of a vehicel,42
+103,亭,バス亭,バスてい,a bus stop,42
+104,整,整理,せいり,arrangement,43
+105,整,整理券,せいりけん,"numbered ticket (issued at cinemas, etc. to indicate the order in which people may enter)",43
+106,券,駐車券,ちゅしゃけん,a parking ticket,44
+107,券,乗車券,じゅしゃけん,a (boarding) ticket,44
+108,券,回数券,かいすうけん,(book of) commuter ticket(s),44
+109,現,現金,げんきん,cash,45
+110,現,表現,ひょうげん,expression,45
+111,現,現れる,あらわれる,appear,45
+112,両,両親,りょうしん,parents,46
+113,両,～両,～りょう,... carson a train,46
+114,替,取り替える,とりかえる,exchange (one thing for another),47
+115,替,両替,りょうがえ,"money changing, exchange",47
+116,替,着替える,きがえる,change your clothes,47
+117,優,優先席,ゆうせんせき,a priority seat,48
+118,優,俳優,はいゆう,an actor,48
+119,優,優しい,やさしい,kind,48
+120,座,座席,ざせき,a seat,49
+121,座,正座,せいざ,sitting on the floor Japanese,49
+122,座,座る,すわる,sit,49
+123,降,降車口,こうしゃぐち,exit (for getting off),50
+124,降,以降,いこう,on and after ...,50
+125,降,降りる,おりる,get off,50
+126,降,降る,ふる,fall,50
+127,準,準備,じゅんび,preparation,51
+128,備,準備,じゅんび,preparation,52
+129,備,備える,そなえる,prepare,52
+130,営,営業,えいぎょう,business,53
+131,閉,開閉,かいへい,open and shut,54
+132,閉,閉まる,しまる,shut/close,54
+133,閉,閉める,しめる,shut/close,54
+134,案,案内,あんない,information,55
+135,案,案,あん,"a suggestion, proposal, plan",55
+136,内,家内,かない,wife,56
+137,内,以内,いない,within ...,56
+138,内,内側,うちがわ,inside,56
+139,内,国内,こくない,domestic,56
+140,予,予定,よてい,a plan/schedule,57
+141,予,予習,よしゅう,preparation (pre-study),57
+142,約,予約,よやく,an appointment/reservation,58
+143,約,約～,やく～,approximately,58
+144,煙,禁煙,きんえん,no smoking,59
+145,煙,煙,けむり,smoke,59
+146,当,本当,ほんとう,the truth,60
+147,当,当〇〇,とう〇〇,this 〇〇,60
+148,当,当たる,あたる,hit/win,60
+149,当,当たり前,あたりまえ,"natural, not surprising",60
+150,全,全部,ぜんぶ,all/whole,61
+151,全,全席,ぜんせき,all seats,61
+152,全,安全（な）,あんぜん（な）,safe,61
+153,客,客,きゃく,a customer,62
+154,客,お客様,きゃくさま,a customer,62
+155,様,様子,ようす,appearance/situation,63
+156,様,〇〇様,〇〇さま,"an honorific added to people's names, particularly in letters",63
+157,解,理解,りかい,understand,64
+158,解,解答,かいとう,an answer,64
+159,解,解説,かいせつ,an explanation,64
+160,解,分解,ぶんかい,take apart,64
+161,協,協力,きょうりょく,cooperation,65
+162,願,願う,ねがう,wish,66
+163,観,観光,かんこう,sightseeing,67
+164,観,観客,かんきゃく,"spectator, audience",67
+165,園,動物園,どうぶつえん,a zoo,68
+166,港,空港,くうこう,an airport,69
+167,港,〇〇港,〇〇こう,〇〇 port,69
+168,港,港,みなと,a port,69
+169,遊,遊園地,ゆうえんち,an amusement park,70
+170,遊,遊ぶ,あそぶ,play,70
+171,美,美術館,びじゅつかん,a museum,71
+172,美,美人,びじん,a beautiful woman,71
+173,美,美しい,うつくしい,beautiful,71
+174,術,美術,びじゅつ,(fine) art,72
+175,術,技術,ぎじゅつ,"technique, technology",72
+176,術,手術,しゅじゅつ,"surgery, operation",72
+177,神,神社,じんじゃ,a shrine,73
+178,神,神経質（な）,しんけいしつ（な）,nervous,73
+179,神,神様,かみさま,a god,73
+180,寺,〇〇寺,〇〇じ,〇〇 Temple,74
+181,寺,お寺,おてら,a temple,74
+182,役,市役所,しやくしょ,the city office,75
+183,役,役に立つ,やくにたつ,useful,75
+184,役,役員,やくいん,an officer/member,75
+185,郵,郵便,ゆうびん,mail,76
+186,局,郵便局,ゆうびんきょく,a post office,77
+187,局,薬局,やっきょく,a drug store,77
+188,交,交番,こうばん,a police box,78
+189,交,交通,こうつう,transport,78
+190,交,交換,こうかん,exchange,78
+191,差,差,さ,difference,79
+192,差,差し出す,さしだす,hand in,79
+193,差,差出人,さしだしにん,a sender,79
+194,点,交差点,こうさてん,an intersection,80
+195,点,点数,てんすう,score/points,80
+196,点,～点,～てん,... points,80
+197,橋,歩道橋,ほどうきょう,a foot bridge,81
+198,橋,橋,はし,a bridge,81
+199,公,公園,こうえん,a park,82
+200,受,受信,じゅしん,receive,83
+201,受,受験,じゅけん,an entrance examination,83
+202,受,受ける,うける,receive,83
+203,付,付ける,つける,put on,84
+204,付,片付ける,かたづける,tidy up,84
+205,付,受付,うけつけ,a reception,84
+206,付,付く,つく,stick to,84
+207,科,科学,かがく,science,85
+208,科,外科,げか,surgery department,85
+209,科,内科,ないか,internal medicine,85
+210,科,教科書,きょうかしょ,a textbook,85
+211,鼻,耳鼻科,じびか,ears and nose department,86
+212,鼻,鼻,はな,a nose,86
+213,婦,婦人,ふじん,a woman,87
+214,婦,産婦人科,さんふじんか,obstetrics and gynecology department,87
+215,婦,主婦,しゅふ,a housewife,87
+216,形,形式,けいしき,form / type,88
+217,形,図形,ずけい,a diagram,88
+218,形,整形外科,せいけいげか,orthopedics department,88
+219,形,人形,にんぎょう,a doll / puppet,88
+220,形,形,かたち,shape/form,88
+221,骨,骨折,こっせつ,a bone fracture,89
+222,骨,骨,ほね,a bone,89
+223,折,右折,うせつ,a right turn,90
+224,折,左折,させつ,a left turn,90
+225,折,折る,おる,break / fold (something),90
+226,折,折り紙,おりがみ,Japanese art of folding paper,90
+227,折,折れる,おれる,break,90
+228,困,困る,こまる,be in trouble,91
+229,消,消防,しょうぼう,fire fighting,92
+230,消,消える,きえる,"be extinguished, disappear",92
+231,消,消す,けす,extinguish,92
+232,消,消しゴム,けしゴム,an eraser,92
+233,防,予防,よぼう,"precaution, prevention",93
+234,防,防ぐ,ふせぐ,prevent,93
+235,救,救急車,きゅうきゅうしゃ,an ambulance,94
+236,救,救う,すくう,save,94
+237,警,警官,けいかん,a police officer,95
+238,察,警察,けいさつ,police,96
+239,察,警察署,けいさつしょ,a police station,96
+240,故,事故,じこ,an accident,97
+241,故,故障,こしょう,"break-down, failure",97
+242,故,故〇〇,こ〇〇,the late Mr.,97
+243,伝,伝言,でんごん,a message,98
+244,伝,伝える,つたえる,convey / communicate,98
+245,伝,手伝う,てつだう,help,98
+246,要,必要（な）,ひつよう（な）,necessary,99
+247,要,要る,いる,need,99
+248,要,重要（な）,じゅうよう（な）,important,99
+249,冷,冷房,れいぼう,air-conditioning,100
+250,冷,冷たい,つめたい,cold,100
+251,冷,冷やす,ひやす,cool,100
+252,冷,冷える,ひえる,become cold,100
+253,冷,冷める,さめる,cool down,100
+254,冷,冷ます,さます,cool something,100
+255,蔵,冷蔵庫,れいぞうこ,a refrigerator,101
+256,凍,冷凍庫,れいとうこ,a freezer,102
+257,凍,凍る,こおる,freeze,102
+258,庫,金庫,きんこ,a safe,103
+259,庫,車庫,しゃこ,a garage,103
+260,召,召し上がる,めしあがる,eat (polite form),104
+261,保,保存する,ほぞんする,preserve,105
+262,存,ご存じです,ごぞんじです,know (humble form),106
+263,存,存じません,ぞんじません,I do not know,106
+264,必,必要（な）,ひつよう（な）,necessary,107
+265,必,必死（に）,ひっし（に）,desperate(ly),107
+266,必,必ず,かならず,always / certainly,107
+267,費,費用,ひよう,"an expense, cost",108
+268,費,消費者,しょうひしゃ,consumers,108
+269,費,旅費,りょひ,travelling expenses,108
+270,費,会費,かいひ,a membership fee,108
+271,期,期間,きかん,a period of time,109
+272,期,定期券,ていきけん,a commuter pass,109
+273,期,長期,ちょうき,a long period,109
+274,期,短期,たんき,a short period,109
+275,限,期限,きげん,a time limit,110
+276,限,限度,げんど,a limit,110
+277,限,限る,かぎる,"limit, restrict",110
+278,限,限定,げんてい,limitation,110
+279,製,〇〇製,〇〇せい,made in/of 〇〇,111
+280,製,製品,せいひん,a product,111
+281,造,製造,せいぞう,manufacture,112
+282,造,造る,つくる,make,112
+283,賞,賞,しょう,a prize,113
+284,賞,賞味期限,しょうみきげん,Best before,113
+285,賞,賞金,しょうきん,prize money,113
+286,賞,賞品,しょうひん,a prize,113
+287,法,方法,ほうほう,a method / way,114
+288,法,文法,ぶんぽう,grammar,114
+289,温,温度,おんど,temperature,115
+290,温,気温,きおん,temperature,115
+291,温,温かい,あたたかい,warm,115
+292,温,常温,じょうおん,normal temperature,115
+293,販,販売,はんばい,sell,116
+294,販,自動販売機,じどうはんばいき,a vending machine,116
+295,機,飛行機,ひこうき,an airplane,117
+296,機,機械,きかい,a machine,117
+297,機,機会,きかい,an opportunity,117
+298,増,増加,ぞうか,an increase,118
+299,増,増える,ふえる,increase,118
+300,増,増やす,ふやす,"increase, add",118
+301,減,減少,げんしょう,a decrease,119
+302,減,減る,へる,"decrease, reduce",119
+303,減,減らす,へらす,decrease,119
+304,量,量,りょう,quantity,120
+305,量,数量,すうりょう,amount,120
+306,量,増量,ぞうりょう,increase the amount,120
+307,量,減量,げんりょう,a loss in quantity (weight),120
+308,氷,氷,こおり,ice,121
+309,返,返事,へんじ,a reply,122
+310,返,返却,へんきゃく,return,122
+311,返,返す,かえす,return (something),122
+312,湯,（お）湯,（お）ゆ,hot water,123
+313,材,材料,ざいりょう,"ingredients, materials",124
+314,材,教材,きょうざい,teaching material,124
+315,卵,卵,たまご,an egg,125
+316,卵,卵焼き,たまごやき,a Japanese omlet,125
+317,乳,牛乳,ぎゅうにゅう,milk,126
+318,粉,粉,こな,"powder, flour",127
+319,粉,小麦粉,こむぎこ,wheat flour,127
+320,袋,袋,ふくろ,a bag,128
+321,袋,紙袋,かみぶくろ,a paper bag,128
+322,袋,ごみ袋,ごみぶくろ,a garbage bag,128
+323,袋,手袋,てぶくろ,gloves,128
+324,袋,足袋,たび,tabi (traditional Japanese socks worn with a kimono),128
+325,混,混雑,こんざつ,congestion,129
+326,混,混ぜる,まぜる,be mixed,129
+327,焼,焼く,やく,"roast, grill",130
+328,焼,焼ける,やける,be burnt/baked,130
+329,表,表,ひょう,a table (in written documents),131
+330,表,表面,ひょうめん,a surface,131
+331,表,発表,はっぴょう,an announcement,131
+332,表,代表,だいひょう,a representative,131
+333,表,表,おもて,"a surface, face",131
+334,表,表す,あらわす,"show, express",131
+335,裏,裏,うら,"reverse, back",132
+336,裏,裏返す,うらがえす,turnover,132
+337,留,留学,りゅうがく,study abroad,133
+338,留,留守番,るすばん,stay at home,133
+339,留,保留,ほりゅう,reservation / suspension,133
+340,留,書留,かきとめ,registration (registered mail),133
+341,守,守備,しゅび,defence,134
+342,守,留守,るす,absence,134
+343,守,守る,まもる,protect,134
+344,濃,濃い,こい,"concentrate, dark (color)",135
+345,薄,薄い,うすい,"thin (material), light (color), weak (drink)",136
+346,部,部分,ぶぶん,part,137
+347,部,学部,がくぶ,faculty,137
+348,部,部長,ぶちょう,department head / manager,137
+349,部,部屋,へや,a room,137
+350,数,数字,すうじ,number,138
+351,数,数学,すうがく,mathematics,138
+352,数,数,かず,a number,138
+353,数,数える,かぞえる,count,138
+354,件,件名,けんめい,subject,139
+355,件,事件,じけん,an incident,139
+356,件,用件,ようけん,a business/matter,139
+357,再,再入国,さいにゅうこく,re-enter a country,140
+358,再,再ダイヤル,さいダイヤル,redial,140
+359,再,再生,さいせい,"regenerate, recycle",140
+360,再,再来週,さらいしゅう,the week after next,140
+361,接,接続,せつぞく,connect,141
+362,接,面接,めんせつ,interview,141
+363,続,接続,せつぞく,connect,142
+364,続,続く,つづく,continue,142
+365,続,続ける,つづける,continue,142
+366,示,表示,ひょうじ,"indication, expression",143
+367,示,指示,しじ,"a direction, instruction",143
+368,示,示す,しめす,"show, point out",143
+369,戻,戻る,もどる,return,144
+370,戻,戻す,もどす,"return, put back",144
+371,完,完了,かんりょう,completion,145
+372,完,完全（な）,かんぜん（な）,"perfect, complete",145
+373,了,了解,りょうかい,"understand, agree",146
+374,了,終了,しゅうりょう,"end, expiration",146
+375,登,登録,とうろく,registration,147
+376,登,登山,とざん,mountain climbing,147
+377,登,登る,のぼる,climb,147
+378,録,記録,きろく,a record,148
+379,録,録音,ろくおん,record (sound),148
+380,録,録画,ろくが,record (video),148
+381,砂,砂糖,さとう,sugar,149
+382,砂,砂,すな,sand,149
+383,塩,食塩,しょくえん,table salt,150
+384,塩,塩,しお,salt,150
+385,油,しょう油,しょうゆ,soy sauce,151
+386,油,石油,せきゆ,oil (petroleum),151
+387,油,灯油,とうゆ,kerosene,151
+388,油,油,あぶら,oil,151
+389,緑,緑茶,りょくちゃ,green tea,152
+390,緑,緑（色）,みどり（いろ）,green,152
+391,紅,紅茶,こうちゃ,tea,153
+392,紅,口紅,くちべに,lipstick,153
+393,冊,～冊,～さつ,counter for books,154
+394,冊,冊数,さっすう,the number of copies,154
+395,個,～個,～こ,counter of general objects,155
+396,個,個数,こすう,the number of items,155
+397,個,個人,こじん,individual (person),155
+398,個,団体,だんたい,a group,155
+399,枚,～枚,～まい,counter for flat objects,156
+400,枚,枚数,まいすう,the number of sheets/copies,156
+401,告,広告,こうこく,an advertisement,157
+402,利,便利（な）,べんり（な）,convenient,158
+403,利,利用,りよう,use,158
+404,割,割る,わる,break,159
+405,割,割れる,われる,crack/cleave,159
+406,割,割合,わりあい,"a ratio, a percentage",159
+407,割,割引,わりびき,a discount,159
+408,倍,～倍,～ばい,... times (quantity - e.g. twice as many),160
+409,倍,倍,ばい,＝２倍,160
+410,値,値段,ねだん,a price,161
+411,値,値上げ,ねあげ,a price increase,161
+412,値,値下げ,ねさげ,a price reduction,161
+413,商,商品,しょうひん,goods,162
+414,商,商店,しょうてん,a shop,162
+415,支,支店,してん,a branch,163
+416,支,支社,ししゃ,a branch office,163
+417,支,本店,ほんてん,the main branch of a store,163
+418,支,本社,ほんしゃ,the head office,163
+419,払,払う,はらう,pay,164
+420,払,支払い,しはらい,a payment,164
+421,米,米国,べいこく,the United States of America,165
+422,米,米,こめ,rice,165
+423,級,高級,こうきゅう,high class/grade,166
+424,級,上級,じょうきゅう,advanced level,166
+425,級,中級,ちゅうきゅう,intermediate level,166
+426,残,残業,ざんぎょう,overtime work,167
+427,残,残る,ののこる,remain,167
+428,残,残り,のこり,the remainder,167
+429,残,残す,のこす,"leave, leave behind",167
+430,型,大型,おおがた,"large, jumbo",168
+431,型,新型,しんがた,new-model,168
+432,型,小型,こがた,small-sized,168
+433,税,消費税,しょうひぜい,consumption tax,169
+434,税,税金,ぜいきん,a tax,169
+435,込,込む,こむ,congest/crowd,170
+436,込,振り込む,ふりこむ,transfer money to a person's account,170
+437,込,税込,ぜいこみ,tax included,170
+438,価,価格,かかく,a price,171
+439,価,定価,ていか,a fixed price,171
+440,格,合格,ごうかく,pass an exam,172
+441,格,格安,かくやす,a bargain,172
+442,申,申し込む,もうしこむ,apply,173
+443,申,申込書,もうしこみしょ,an application form,173
+444,申,申告,しんこく,a declaration,173
+445,申,申請,しんせい,application,173
+446,申,申す,もうす,say (humble form),173
+447,申,申し上げる,もうしあげる,say (very humble form),173
+448,記,記入,きにゅう,entry,174
+449,記,日記,にっき,a diary / journal,174
+450,記,記号,きごう,"a sign, a symbol",174
+451,記,記事,きじ,an article,174
+452,例,例,れい,an example,175
+453,例,例えば,たとえば,for example,175
+454,齢,年齢,ねんれい,age,176
+455,齢,高齢,こうれい,old age,176
+456,歳,～歳,～さい,... years old,177
+457,歳,二十歳,にじゅっさい,20 years old,177
+458,歳,二十歳,はたち,20 years old,177
+459,性,性別,せいべつ,sex/gender,178
+460,性,性格,せいかく,personality,178
+461,性,女性,じょせい,woman,178
+462,性,男性,だんせい,man,178
+463,連,連休,れんきゅう,a holiday,179
+464,連,連れて行く,つれていく,take someone to ...,179
+465,連,連れて来る,つれてくる,bring someone to ...,179
+466,絡,連絡,れんらく,contact/connection,180
+467,届,届ける,とどける,deliver,181
+468,届,届く,とどく,arrive (mail),181
+469,宅,自宅,じたく,one's house / home,182
+470,宅,お宅,おたく,house/home (respectful form),182
+471,宅,宅配,たくはい,deliver to someone's house,182
+472,配,配達,はいたつ,delivery,183
+473,配,配送料,はいそうりょう,a shipping charge,183
+474,配,心配,しんぱい,anxiety/worry,183
+475,配,配る,くばる,distribute,183
+476,希,希望,きぼう,hope,184
+477,望,失望,しつぼう,despair,185
+478,望,望む,のぞむ,"want, hope for",185
+479,荷,入荷,にゅうか,receipt (of goods),186
+480,荷,出荷,しゅっか,shipment,186
+481,荷,荷物,にもつ,luggage,186
+482,荷,手荷物,てにもつ,hand luggage,186
+483,換,交換,こうかん,exchange,187
+484,換,代金引換,だいきんひきかえ,cash on delivery,187
+485,換,乗り換え,のりかえ,changing trains,187
+486,換,代引き,だいびき,cash on delivery,187
+487,額,金額,きんがく,an amount/sum (of money),188
+488,額,半額,はんがく,half price,188
+489,在,不在,ふざい,absence,189
+490,在,現在,げんざい,present (time),189
+491,取,取る,とる,take,190
+492,取,受け取る,うけとる,"receive, take",190
+493,取,受取人,うけとりにん,a recipient,190
+494,預,預金,よきん,a money deposit,191
+495,預,預ける,あずける,entrust,191
+496,衣,衣類,いるい,clothing,192
+497,衣,衣服,いふく,clothes,192
+498,参,参加,さんか,participate,193
+499,参,参考書,さんこうしょ,a reference book,193
+500,参,参る,まいる,go / come (humble form),193
+501,達,上達,じょうたつ,make progress,194
+502,達,速達,そくたつ,a special delivery,194
+503,達,友達,ともだち,a friend,194
+504,勤,通勤,つうきん,commuting to work,195
+505,勤,勤める,つとめる,work / be employed,195
+506,帯,携帯（電話）,けいたい（でんわ）,a cell phone / mobile phone,196
+507,帯,時間帯,じかんたい,"a time zone, a time slot",196
+508,帯,帯,おび,a belt/sash,196
+509,礼,お礼,おれい,thanks,197
+510,伺,伺う,うかがう,"visit, ask (humble form)",198
+511,遅,遅刻,ちこく,tardiness,199
+512,遅,遅い,おそい,slow,199
+513,遅,遅れる,おくれる,be late,199
+514,失,失礼（な）,しつれい（な）,rudeness,200
+515,失,失礼する,しつれいする,be excused,200
+516,失,失敗,しっぱい,"failure, mistake",200
+517,汗,汗,あせ,"perspiration, sweat",201
+518,汗,汗をかく,あせをかく,sweat,201
+519,念,残念（な）,ざんねん（な）,"regret, disappointment",202
+520,念,記念,きねん,commemoration,202
+521,涙,涙,なみだ,tear(s),203
+522,涙,涙を流す,なみだをながす,weep,203
+523,笑,笑う,わらう,laugh / smile,204
+524,笑,笑い,わらい,laughter,204
+525,笑,笑顔,えがお,smile / smiling face,204
+526,調,調子,ちょうし,condition,205
+527,調,強調,きょうちょう,"emphasis, stress",205
+528,調,調べる,しらべる,"look up something, investigate",205
+529,査,調査,ちょうさ,an investigation/inquiry,206
+530,移,移動,いどう,move / transfer,207
+531,移,移る,うつる,move / shift,207
+532,移,移す,うつす,move / shift (something),207
+533,難,困難（な）,こんなん（な）,difficulty,208
+534,難,難問,なんもん,a difficult problem,208
+535,難,難しい,むずかしい,difficult,208
+536,簡,簡単（な）,かんたん（な）,easy,209
+537,単,単語,たんご,vocabulary,210
+538,単,単位,たんい,"a unit, credit",210
+539,感,感じる,かんじる,feel,211
+540,感,感動,かんどう,inspiration,211
+541,想,感想,かんそう,"impressions, thoughts",212
+542,想,予想,よそう,"anticipation, forecast",212
+543,練,練習,れんしゅう,practice,213
+544,最,最近,さいきん,recently,214
+545,最,最初,さいしょ,first / beginning,214
+546,最,最後,さいご,last / end,214
+547,最,最も,もっとも,most,214
+548,適,適当（な）,てきとう（な）,correct / appropriate,215
+549,適,快適（な）,かいてき（な）,comfortable,215
+550,選,選挙,せんきょ,an election,216
+551,選,選手,せんしゅ,"a player, an athlete",216
+552,選,選ぶ,えらぶ,choose,216
+553,違,違う,ちがう,"different, wrong",217
+554,違,間違い,まちがい,a mistake,217
+555,違,間違う,まちがう,make a mistake,217
+556,違,間違える,まちがえる,make a mistake,217
+557,直,直線,ちょくせん,a straight line,218
+558,直,直接,ちょくせつ,direct,218
+559,直,直る,なおる,be repaired,218
+560,直,直す,なおす,fix,218
+561,復,復習,ふくしゅう,review,219
+562,復,往復,おうふく,a round trip,219
+563,復,回復,かいふく,recovery/recuperation,219
+564,辞,辞書,じしょ,a dictionary,220
+565,辞,辞める,やめる,"resign, retire",220
+566,宿,宿題,しゅくだい,a homework,221
+567,宿,下宿,げしゅく,lodgings,221
+568,宿,宿,やど,"an inn, a hotel",221
+569,昨,昨日,さくじつ,yesterday,222
+570,昨,昨日,きのう,yesterday,222
+571,昨,昨夜,さくや,last night,222
+572,昨,昨年,さくねん,last year,222
+573,君,〇〇君,〇〇くん,honorific appended to names of males younger than oneself,223
+574,君,君,きみ,you,223
+575,結,結構（な）,けっこう（な）,"splendid, nice",224
+576,結,「いいえ、結構です」,「いいえ、けっこうです」,"No, thank you.",224
+577,結,結局,けっきょく,after all,224
+578,結,結ぶ,むすぶ,tie / connect / conclude,224
+579,婚,結婚,けっこん,a marriage,225
+580,婚,新婚旅行,しんこんりょこう,a honeymoon,225
+581,婚,婚約,こんやく,an engagement,225
+582,祝,祝日,しゅくじつ,a holiday / festival day,226
+583,祝,祝う,いわう,celebrate/congratulate,226
+584,祝,お祝い,おいわい,celebration/congratulation,226
+585,曲,曲,きょく,a piece of music,227
+586,曲,曲線,きょくせん,a curve,227
+587,曲,曲がる,まがる,"bend, turn a corner",227
+588,曲,曲げる,まげる,bend,227
+589,奥,奥さん,おくさん,another person's wife,228
+590,奥,奥,おく,inmost,228
+591,寝,寝る,ねる,sleep,229
+592,寝,寝坊,ねぼう,"late riser, sleepyhead",229
+593,寝,昼寝,ひるね,a nap,229
+594,痛,頭痛,ずつう,a headache,230
+595,痛,腹痛,ふくつう,stomach ache,230
+596,痛,痛い,いたい,"sore, painful",230
+597,熱,熱,ねつ,"heat, fever",231
+598,熱,熱心（な）,ねっしん（な）,"enthusiasm, zeal",231
+599,熱,熱い,あつい,hot,231
+600,虫,虫,むし,an insect,232
+601,歯,歯科,しか,dentistry,233
+602,歯,歯,は,teeth,233
+603,歯,歯医者,はいしゃ,a dentist,233
+604,歯,虫歯,むしば,a decayed tooth,233
+605,治,政治,せいじ,"politics, government",234
+606,治,治療,ちりょう,a treatment,234
+607,治,治る,なおる,heal,234
+608,治,治す,なおす,cure,234
+609,汚,汚い,きたない,dirty,235
+610,汚,汚れる,よごれる,become dirty,235
+611,並,並ぶ,ならぶ,stand in a line,236
+612,並,並べる,ならべる,"line up, set up",236
+613,並,歯並び,はならび,the alignment of your teeth,236
+614,他,他の,たの,other,237
+615,他,その他,そのた,other,237
+616,身,身長,しんちょう,height,238
+617,身,独身,どくしん,"single, unmarried",238
+618,身,身分,みぶん,social status,238
+619,身,刺身,さしみ,sashimi (sliced raw fish),238
+620,酒,日本酒,にほんしゅ,sake,239
+621,酒,料理酒,りょうりしゅ,cooking sake,239
+622,酒,お酒,おさけ,"alcohol, liquor",239
+623,酒,酒屋,さかや,a liquor store,239
+624,吸,呼吸,こきゅう,"breathing, respiration",240
+625,吸,吸う,すう,breathe / inhale,240
+626,欲,食欲,しょくよく,appetite,241
+627,欲,意欲,いよく,"a will, eagerness, motivation",241
+628,欲,欲しい,ほしい,want,241
+629,眠,睡眠,すいみん,sleep,242
+630,眠,眠い,ねむい,sleepy,242
+631,眠,眠る,ねむる,sleep,242
+632,疲,疲れる,つかれる,"get tired, exhaust",243
+633,息,息,いき,a breath,244
+634,息,息切れ,いきぎれ,be short of breath,244
+635,息,息子,むすこ,a son,244
+636,呼,呼吸,こきゅう,"breathing, respiration",245
+637,呼,呼ぶ,よぶ,call,245
+638,報,予報,よほう,a forecast,246
+639,報,報告,ほうこく,a report,246
+640,晴,晴れる,はれる,be sunny,247
+641,晴,晴れ,はれ,fine weather,247
+642,雲,雲,くも,clouds,248
+643,吹,吹く,ふく,blow,249
+644,暖,暖房,だんぼう,a heater,250
+645,暖,暖かい,あたたかい,warm,250
+646,雪,雪,ゆき,snow,251
+647,震,地震,じしん,an earthquake,252
+648,震,震度,しんど,seismic intensity,252
+649,波,電波,でんぱ,electromagnetic wave,253
+650,波,波,なみ,a wave,253
+651,波,津波,つなみ,tsunami,253
+652,求,要求,ようきゅう,"a demand, request",254
+653,求,請求書,せいきゅうしょ,"a bill, invoice",254
+654,求,求人,きゅうじん,‘Help Wanted’,254
+655,求,求める,もとめる,"demand, request",254
+656,募,募集,ぼしゅう,recruitment,255
+657,職,職場,しょくば,a work place,256
+658,職,転職,てんしょく,change your job,256
+659,職,職業,しょくぎょう,an occupation/profession,256
+660,職,職員,しょくいん,employees,256
+661,容,美容院,びよういん,a hairdresser,257
+662,容,内容,ないよう,contents/substance,257
+663,技,技術,ぎじゅつ,"technique, technology",258
+664,技,技術者,ぎじゅつしゃ,a technician,258
+665,般,一般,いっぱん,"general, average",259
+666,般,一般に,いっぱんに,in general,259
+667,務,事務,じむ,office work,260
+668,務,事務所,じむしょ,an office,260
+669,務,公務員,こうむいん,"a civil servant, government employee",260
+670,務,税務署,ぜいむしょ,tax office,260
+671,課,第１課,だいいっか,Lesson one,261
+672,課,課長,かちょう,a section chief,261
+673,球,地球,ちきゅう,the earth,262
+674,球,電球,でんきゅう,a light bulb,262
+675,球,野球,やきゅう,baseball,262
+676,決,決して,けっして,by no means,263
+677,決,決める,きめる,decide (something),263
+678,決,決定,けってい,a decision,263
+679,決,決まる,きまる,be decided,263
+680,勝,優勝,ゆうしょう,"a victory, championship",264
+681,勝,勝つ,かつ,win,264
+682,勝,決勝,けっしょう,final game,264
+683,対,1対2,1たい2,(a score of) one to two,265
+684,対,反対,はんたい,opposite,265
+685,流,流れる,ながれる,flow,266
+686,流,流す,ながす,"let (water, etc.) flow",266
+687,負,勝負,しょうぶ,"a match, contest, game",267
+688,負,負ける,まける,lose,267
+689,投,投手,とうしゅ,(baseball) pitcher,268
+690,投,投げる,なげる,throw,268
+691,果,結果,けっか,a result,269
+692,果,果物,くだもの,fruit,269
+693,戦,戦後,せんご,after the war,270
+694,戦,戦う,たたかう,fight,270
+695,戦,戦争,せんそう,war,270
+696,経,経験,けいけん,an experience,271
+697,経,経営,けいえい,management,271
+698,済,経済,けいざい,economy,272
+699,済,済む,すむ,finish,272
+700,成,成長,せいちょう,growth,273
+701,成,完成,かんせい,completion,273
+702,貿,貿易,ぼうえき,trade,274
+703,易,貿易,ぼうえき,trade,275
+704,易,易しい,やさしい,"easy, plain, simple",275
+705,輸,輸出,ゆしゅつ,export,276
+706,輸,輸入,ゆにゅう,import,276
+707,輸,輸送,ゆそう,transport,276
+708,相,相談,そうだん,consultation,277
+709,相,相手,あいて,an opponent/competitor,277
+710,相,首相,しゅしょう,prime minister,277
+711,化,文化,ぶんか,culture,278
+712,化,〇〇化,〇〇か,-ize (change something into something else),278
+713,化,化学,かがく,chemistry,278
+714,化,化粧,けしょう,makeup,278
+715,比,比べる,くらべる,compare,279
+716,原,原料,げんりょう,(raw) material,280
+717,因,原因,げんいん,a cause,281
+718,際,国際（の）,こくさい（の）,international,282
+719,際,交際,こうさい,association/dealings (with),282
+720,議,会議,かいぎ,a meeting,283
+721,議,議員,ぎいん,a member of an assembly,283
+722,活,生活,せいかつ,life / livelihood,284
+723,活,活動,かつどう,activity,284
+724,変,大変（な）,たいへん（な）,"very, serious",285
+725,変,変化,へんか,a change,285
+726,変,変わる,かわる,change,285
+727,変,変える,かえる,change (something),285
+728,政,政治,せいじ,politics,286
+729,政,政治家,せいじか,a politician,286
+730,府,政府,せいふ,"an government, administration",287
+731,府,都道府県,とどうふけん,prefectures,287
+732,改,改正,かいせい,an amendment,288
+733,改,改札口,かいさつぐち,a ticket gate,288
+734,改,改める,あらためる,① change ② check,288
+735,否,否定,ひてい,negation,289
+736,的,否定的な,ひていてきな,negative,290
+737,的,目的,もくてき,"an aim, purpose",290
+738,的,国際的な,こくさいてきな,international,290
+739,的,個人的な,こじんてきな,personal,290
+740,実,実際に,じっさいに,"practice, actual conditions",291
+741,実,実は,じつは,to tell the truth,291
+742,実,実験,じっけん,an experiment,291
+743,欠,欠点,けってん,a shortcoming,292
+744,欠,欠席,けっせき,absence,292
+745,欠,欠ける,かける,"chip, lack",292
+746,専,専門,せんもん,specialty,293
+747,専,専門家,せんもんか,an expert,293
