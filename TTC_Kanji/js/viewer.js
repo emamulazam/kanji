@@ -153,6 +153,7 @@ function showKanji(){
     </div>
 
 
+
     <div class="info">
 
     Kanji Number : ${k.number}
@@ -162,7 +163,6 @@ function showKanji(){
     Stroke Count : ${k.stroke}
 
     </div>
-
 
 
 
@@ -230,6 +230,7 @@ function showKanji(){
 
 
     </div>
+
 
 
 
