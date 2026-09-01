@@ -1,24 +1,27 @@
-let kanjiData=[];
+let kanjiData = [];
 
 // Simple CSV line parser to handle quoted fields with commas
-function parseCSVLine(line){
+function parseCSVLine(line) {
     const result = [];
     let current = "";
     let inQuotes = false;
 
-    for(let i = 0; i < line.length; i++){
+    for (let i = 0; i < line.length; i++) {
         const ch = line[i];
-        if(ch === '"'){
-            if(inQuotes && line[i+1] === '"'){
+
+        if (ch === '"') {
+            if (inQuotes && line[i + 1] === '"') {
                 current += '"';
                 i++;
             } else {
                 inQuotes = !inQuotes;
             }
-        } else if(ch === ',' && !inQuotes){
+        } 
+        else if (ch === ',' && !inQuotes) {
             result.push(current);
             current = "";
-        } else {
+        } 
+        else {
             current += ch;
         }
     }
@@ -28,387 +31,294 @@ function parseCSVLine(line){
 }
 
 
-
-let currentID=1;
-
-
+let currentID = 1;
 
 
 // Load CSV
-
 fetch("data/kanji.csv")
 
-.then(response=>response.text())
+.then(response => response.text())
 
-.then(data=>{
+.then(data => {
 
+    let rows = data.trim().split("\n");
 
-    let rows=data.trim().split("\n");
-
-
-    rows.forEach(row=>{
-
+    rows.forEach(row => {
 
         let col = parseCSVLine(row);
 
-
-
-        if(col.length>=5){
-
+        if (col.length >= 6) {
 
             kanjiData.push({
 
-                kanji:col[0],
+                kanji: col[0],
 
-                meaning:col[1],
+                meaning: col[1],
 
-                            story: col[2],
+                story: col[2],
 
-                            stroke:col[3],
+                stroke: col[3],
 
-                            number:Number(col[4])
+                number: Number(col[4]),
 
+                type: col[5]
 
-                        });
-
+            });
 
         }
-
-
 
     });
 
 
-
     let params =
-    new URLSearchParams(window.location.search);
-
+        new URLSearchParams(window.location.search);
 
 
     currentID =
-    Number(params.get("id")) || 1;
-
+        Number(params.get("id")) || 1;
 
 
     showKanji();
-
 
 });
 
 
 
-
-
-
-
-function showKanji(){
-
-
+function showKanji() {
 
     let k =
-    kanjiData[currentID-1];
+        kanjiData[currentID - 1];
 
+    if (!k) return;
 
 
-    if(!k)return;
+    document.getElementById("viewer").innerHTML = `
 
+        <div class="meaning">
+            ${k.meaning}
+        </div>
 
 
-    document.getElementById("viewer").innerHTML=`
+        <div class="kanji stroke">
+            ${k.kanji}
+        </div>
 
 
+        <div class="kanji hgrkk">
+            ${k.kanji}
+        </div>
 
 
-    <div class="meaning">
+        <div class="story">
+            ${k.story ? k.story : ""}
+        </div>
 
-    ${k.meaning}
 
-    </div>
+        <div class="info">
 
+            Kanji Number : ${k.number}
 
+            <br>
 
+            Stroke Count : ${k.stroke}
 
+            <br>
 
-    <div class="kanji stroke">
+            Kanji Type : ${k.type}
 
-    ${k.kanji}
+        </div>
 
-    </div>
 
+        <div class="navigation">
 
+            <button onclick="previousKanji()">
+                ◀ Previous
+            </button>
 
 
-    <div class="kanji hgrkk">
+            <button onclick="nextKanji()">
+                Next ▶
+            </button>
 
-    ${k.kanji}
+        </div>
 
-    </div>
 
+        <div class="search-box">
 
+            <input 
+                id="jumpNumber"
+                placeholder="Kanji number"
+            >
 
+            <button onclick="jumpKanji()">
+                Go
+            </button>
 
-    <!-- Story / mnemonic section placed under the kanji and above the number/stroke info -->
-    <div class="story">
-    ${k.story ? k.story : ""}
-    </div>
+        </div>
 
 
+        <div class="search-box">
 
-    <div class="info">
+            <input 
+                id="jumpKanji"
+                placeholder="Kanji"
+            >
 
-    Kanji Number : ${k.number}
+            <button onclick="jumpByKanji()">
+                Go
+            </button>
 
-    <br>
-
-    Stroke Count : ${k.stroke}
-
-    </div>
-
-
-
-
-
-    <div class="navigation">
-
-
-    <button onclick="previousKanji()">
-
-    ◀ Previous
-
-    </button>
-
-
-
-    <button onclick="nextKanji()">
-
-    Next ▶
-
-    </button>
-
-
-
-    </div>
-
-
-
-
-
-    <div class="search-box">
-
-
-    <input 
-    id="jumpNumber"
-    placeholder="Kanji number">
-
-
-    <button onclick="jumpKanji()">
-
-    Go
-
-    </button>
-
-
-    </div>
-
-
-
-
-
-    <div class="search-box">
-
-
-    <input 
-    id="jumpKanji"
-    placeholder="Kanji">
-
-
-    <button onclick="jumpByKanji()">
-
-    Go
-
-    </button>
-
-
-    </div>
-
-
-
+        </div>
 
     `;
 
 
+    // Press Enter in number input
+    document.getElementById("jumpNumber").addEventListener(
+        "keydown",
+        function(e) {
+
+            if (e.key === "Enter") {
+                jumpKanji();
+            }
+
+        }
+    );
+
+
+    // Press Enter in kanji input
+    document.getElementById("jumpKanji").addEventListener(
+        "keydown",
+        function(e) {
+
+            if (e.key === "Enter") {
+                jumpByKanji();
+            }
+
+        }
+    );
 
 }
 
 
 
+function nextKanji() {
 
-
-
-
-
-
-function nextKanji(){
-
-
-
-    if(currentID < kanjiData.length){
-
+    if (currentID < kanjiData.length) {
 
         currentID++;
 
-
         updateURL();
 
-
     }
-
 
 }
 
 
 
+function previousKanji() {
 
-
-
-function previousKanji(){
-
-
-    if(currentID>1){
-
+    if (currentID > 1) {
 
         currentID--;
 
-
         updateURL();
 
-
     }
-
 
 }
 
 
 
-
-
-
-function updateURL(){
-
+function updateURL() {
 
     history.pushState(
         null,
         "",
-        "?id="+currentID
+        "?id=" + currentID
     );
-
 
     showKanji();
 
-
 }
 
 
 
-
-
-
-function jumpKanji(){
-
-
+function jumpKanji() {
 
     let num =
-    Number(
-    document.getElementById("jumpNumber").value
-    );
+        Number(
+            document.getElementById("jumpNumber").value
+        );
 
 
+    if (num >= 1 && num <= kanjiData.length) {
 
-    if(num>=1 && num<=kanjiData.length){
-
-
-        currentID=num;
-
+        currentID = num;
 
         updateURL();
 
-
     }
-
 
 }
 
 
 
-
-
-
-function jumpByKanji(){
-
+function jumpByKanji() {
 
     let text =
-    document.getElementById("jumpKanji").value;
-
+        document.getElementById("jumpKanji").value.trim();
 
 
     let found =
-    kanjiData.find(k=>k.kanji===text);
+        kanjiData.find(k => k.kanji === text);
 
 
+    if (found) {
 
-    if(found){
-
-
-        currentID=found.number;
-
+        currentID = found.number;
 
         updateURL();
 
-
     }
 
-
-    else{
-
+    else {
 
         alert("Kanji not found");
 
-
     }
 
-
 }
-
-
-
 
 
 
 // Keyboard control
 
 document.addEventListener(
-"keydown",
-function(e){
+    "keydown",
+    function(e) {
+
+        // Don't change kanji when typing in an input
+        if (
+            e.target.tagName === "INPUT" ||
+            e.target.tagName === "TEXTAREA"
+        ) {
+            return;
+        }
 
 
-    if(e.key==="ArrowRight"){
+        if (e.key === "ArrowRight") {
+
+            nextKanji();
+
+        }
 
 
-        nextKanji();
+        if (e.key === "ArrowLeft") {
 
+            previousKanji();
+
+        }
 
     }
-
-
-
-    if(e.key==="ArrowLeft"){
-
-
-        previousKanji();
-
-
-    }
-
-
-
-});
+);
