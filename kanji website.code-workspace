@@ -2,12 +2,7 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "C:/Users/Azam/Desktop/correct kanji"
 		}
 	],
-	"settings": {
-		"liveServer.settings.port": 5501
-	}
+	"settings": {}
 }
